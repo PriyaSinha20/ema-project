@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Virgin Atlantic (en-IN) — EDS Migration Handover</title>
+<style>
+  :root {
+    --va-red: #cc0033;
+    --ink: #1a1a2e;
+    --muted: #5a5a6a;
+    --line: #e2e2ea;
+    --band: #f5f5f8;
+    --high: #fff6f8;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    line-height: 1.55;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+  }
+  .page { max-width: 900px; margin: 0 auto; padding: 48px 40px; }
+  header.cover {
+    border-top: 8px solid var(--va-red);
+    padding: 40px 40px 28px;
+    background: var(--band);
+  }
+  header.cover .kicker {
+    text-transform: uppercase; letter-spacing: .12em; font-size: 11px;
+    color: var(--va-red); font-weight: 700; margin: 0 0 8px;
+  }
+  header.cover h1 { font-size: 30px; margin: 0 0 6px; line-height: 1.15; }
+  header.cover .sub { color: var(--muted); font-size: 14px; margin: 0; }
+  .meta-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 32px;
+    margin: 22px 0 0; font-size: 12px;
+  }
+  .meta-grid div { padding: 4px 0; border-bottom: 1px solid var(--line); }
+  .meta-grid .k { color: var(--muted); }
+  .meta-grid .v { font-weight: 600; }
+
+  h2 {
+    font-size: 19px; margin: 34px 0 10px; padding-bottom: 6px;
+    border-bottom: 2px solid var(--va-red);
+  }
+  h2 .n { color: var(--va-red); margin-right: 8px; }
+  h3 { font-size: 14px; margin: 18px 0 6px; }
+  p { margin: 8px 0; }
+  .lead { font-size: 14px; }
+
+  ul { margin: 8px 0; padding-left: 20px; }
+  li { margin: 3px 0; }
+
+  table {
+    width: 100%; border-collapse: collapse; margin: 12px 0 18px; font-size: 12px;
+  }
+  th, td { text-align: left; padding: 7px 9px; border: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--ink); color: #fff; font-weight: 600; }
+  tbody tr:nth-child(even) { background: var(--band); }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  tr.total td { font-weight: 700; background: var(--high); border-top: 2px solid var(--va-red); }
+
+  code { background: var(--band); padding: 1px 5px; border-radius: 3px; font-size: 11.5px; }
+
+  .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 18px 0; }
+  .stat { background: var(--band); border-left: 4px solid var(--va-red); padding: 12px 14px; }
+  .stat .big { font-size: 24px; font-weight: 700; line-height: 1; }
+  .stat .lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-top: 5px; }
+
+  .callout {
+    background: var(--high); border: 1px solid #f2ccd6; border-left: 4px solid var(--va-red);
+    padding: 12px 16px; margin: 16px 0; border-radius: 4px; font-size: 12.5px;
+  }
+  .callout strong { color: var(--va-red); }
+
+  .pill { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .pill.auto { background: #e3f5e8; color: #1c7a3e; }
+  .pill.semi { background: #fdf3e0; color: #a9701a; }
+  .pill.manual { background: #fbe3e8; color: #b0203c; }
+
+  .lo { color: #1c7a3e; font-weight: 600; }
+  .med { color: #a9701a; font-weight: 600; }
+  .hi { color: #b0203c; font-weight: 600; }
+
+  footer.doc { margin-top: 40px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+
+  @media print {
+    header.cover { padding: 30px 0 22px; }
+    .page { padding: 0 12px; }
+    h2 { page-break-after: avoid; }
+    table, tr, .stat-row, .callout { page-break-inside: avoid; }
+    .no-print { display: none; }
+  }
+  .no-print {
+    text-align: center; padding: 14px; background: var(--ink); color: #fff; font-size: 12px;
+  }
+  .no-print b { color: #fff; }
+</style>
+</head>
+<body>
+
+<div class="no-print">To save as PDF: open this file in your browser, then Print → “Save as PDF” (enable “Background graphics”).</div>
+
+<header class="cover">
+  <p class="kicker">EDS Migration — Scope &amp; Analysis Handover</p>
+  <h1>Virgin Atlantic (en-IN)</h1>
+  <p class="sub">Content-layer migration assessment for Adobe Edge Delivery Services</p>
+  <div class="meta-grid">
+    <div><span class="k">Site analysed:</span> <span class="v">virginatlantic.com/en-IN</span></div>
+    <div><span class="k">Analysis date:</span> <span class="v">2026-08-25</span></div>
+    <div><span class="k">Pages discovered:</span> <span class="v">446 (444 analysed, 99.6%)</span></div>
+    <div><span class="k">Locale:</span> <span class="v">en-IN</span></div>
+    <div><span class="k">Templates:</span> <span class="v">12</span></div>
+    <div><span class="k">Block variants:</span> <span class="v">27</span></div>
+  </div>
+</header>
+
+<div class="page">
+
+<h2><span class="n">1.</span>Executive Summary</h2>
+<p class="lead">A full crawl and structural analysis of the India locale of virginatlantic.com was completed to scope an Adobe Edge Delivery Services (EDS) migration.</p>
+
+<div class="stat-row">
+  <div class="stat"><div class="big">446</div><div class="lbl">Pages discovered</div></div>
+  <div class="stat"><div class="big">444</div><div class="lbl">Analysed (99.6%)</div></div>
+  <div class="stat"><div class="big">12</div><div class="lbl">Page templates</div></div>
+  <div class="stat"><div class="big">27</div><div class="lbl">Block variants</div></div>
+</div>
+
+<div class="callout">
+  <strong>Key constraint:</strong> The passenger site is a JavaScript-heavy, application-driven site behind Akamai bot protection. The booking engine, check-in, flight status, seat maps, and account areas run on separate application subdomains (<code>flights.</code>, <code>flywith.</code>, <code>vaabrowse.virginatlantic.com</code>) and are <strong>out of scope</strong> for content migration — they are transactional applications, not authored content. The 446 pages in this report are the migratable marketing/content layer.
+</div>
+
+<h2><span class="n">2.</span>Templates Inventory</h2>
+<table>
+  <thead><tr><th class="num">#</th><th>Template</th><th>Complexity</th><th>Reasoning</th><th>Reference URL (example)</th></tr></thead>
+  <tbody>
+    <tr><td class="num">1</td><td>marketing-landing</td><td class="hi">High</td><td>Section-hub landing: hero, promo cards, alternating image+text feature rows, icon-link row. Some regions render client-side.</td><td><code>/en-IN</code>, <code>/en-IN/corporate</code></td></tr>
+    <tr><td class="num">2</td><td>rich-text-article</td><td class="lo">Low</td><td>Hero banner + breadcrumb + long-form rich text. Standardized.</td><td><code>/en-IN/policies/air-carrier-access-act</code></td></tr>
+    <tr><td class="num">3</td><td>editorial-travel-guide</td><td class="med">Medium</td><td>Byline/read-time, hero, alternating story sections, inline CTA, related-inspiration teaser.</td><td><code>/en-IN/inspiration/africa/cape-town-travel-guide</code></td></tr>
+    <tr><td class="num">4</td><td>client-rendered-content</td><td class="hi">High</td><td>Main content rendered client-side; static capture shows only header/footer shell.</td><td><code>/en-IN/contact-us/payment-options</code></td></tr>
+    <tr><td class="num">5</td><td>accordion-content</td><td class="med">Medium</td><td>Hero + intro + expand/collapse accordion sections + contact block.</td><td><code>/en-IN/corporate/engineering</code></td></tr>
+    <tr><td class="num">6</td><td>news-listing</td><td class="med">Medium</td><td>Hero + CTAs + dated card grid + "See all" pagination.</td><td><code>/en-IN/travel-news</code></td></tr>
+    <tr><td class="num">7</td><td>promo-feature</td><td class="med">Medium</td><td>Campaign/reward layout: hero, media-rich sections, CTA blocks.</td><td><code>/en-IN/experience/football-world-cup-2026</code></td></tr>
+    <tr><td class="num">8</td><td>reference-document</td><td class="lo">Low</td><td>Hero + short reference text/links. Sparse.</td><td><code>/en-IN/corporate/annual-reports</code></td></tr>
+    <tr><td class="num">9</td><td>inspiration-hub</td><td class="med">Medium</td><td>Inspiration index: hero + card grid to guides.</td><td><code>/en-IN/inspiration/south-korea</code></td></tr>
+    <tr><td class="num">10</td><td>destination-detail</td><td class="med">Medium</td><td>Where-we-fly leaf: hero, destination overview, booking prompts.</td><td><code>/en-IN/where-we-fly/caribbean/tobago</code></td></tr>
+    <tr><td class="num">11</td><td>itinerary-guide</td><td class="med">Medium</td><td>Stepped/day-by-day editorial content.</td><td><code>/en-IN/where-we-fly/.../los-angeles-itinerary</code></td></tr>
+    <tr><td class="num">12</td><td>manage-booking-app</td><td class="hi">High</td><td>Application/tool page driven by embedded booking app; minimal static markup.</td><td><code>/en-IN/manage-booking</code></td></tr>
+  </tbody>
+</table>
+
+<h2><span class="n">3.</span>Blocks / Components Catalog</h2>
+<p>27 block variants catalogued and consolidated by content model — visual variations are grouped as variants of the same base block rather than as separate blocks.</p>
+<table>
+  <thead><tr><th>Block (base)</th><th class="num">Variants</th><th>Complexity</th><th>Behaviour / Functionality</th><th>Reference URL</th></tr></thead>
+  <tbody>
+    <tr><td>header (global)</td><td class="num">1</td><td class="med">Medium</td><td>Sticky nav: logo, Sign in, "My booking" flyout (Manage booking / Check in / Flight status), hamburger mega-menu.</td><td>all pages</td></tr>
+    <tr><td>footer (global)</td><td class="num">1</td><td class="lo">Low</td><td>4-column link nav, social icons, legal/Travel-Aware notice.</td><td>all pages</td></tr>
+    <tr><td>hero</td><td class="num">4</td><td class="med">Low–Med</td><td>Page banner: heading over full-bleed image or solid panel; light/dark themes.</td><td><code>/en-IN</code></td></tr>
+    <tr><td>cards</td><td class="num">3</td><td class="med">Medium</td><td>Card grid — feature/promo/news cards with image, heading, text, CTA. <strong>Most-used block: 279 pages.</strong></td><td><code>/en-IN/travel-news</code></td></tr>
+    <tr><td>breadcrumbs</td><td class="num">5</td><td class="lo">Low</td><td>Home › Section › Page trail; light/dark themes.</td><td><code>/en-IN/corporate/engineering</code></td></tr>
+    <tr><td>columns</td><td class="num">1</td><td class="lo">Low</td><td>Multi-column image+text feature rows.</td><td><code>/en-IN</code></td></tr>
+    <tr><td>carousel</td><td class="num">1</td><td class="med">Medium</td><td>Rotating slides/gallery.</td><td>3 pages</td></tr>
+    <tr><td>tabs</td><td class="num">1</td><td class="med">Medium</td><td>Tabbed content switcher.</td><td>1 page</td></tr>
+    <tr><td>table</td><td class="num">1</td><td class="lo">Low</td><td>Data table (fees/specs).</td><td>1 page</td></tr>
+    <tr><td>form</td><td class="num">1</td><td class="hi">High</td><td>Interactive form (contact/feedback).</td><td>1 page</td></tr>
+    <tr><td>accordion / expander</td><td class="num">~3</td><td class="med">Medium</td><td>Expand/collapse sections.</td><td><code>/en-IN/corporate/engineering</code></td></tr>
+    <tr><td>unknown / custom</td><td class="num">8</td><td class="hi">High</td><td>Composite fragments with no standard EDS equivalent (heading+CTA+list combos, image grids, <code>grid-item</code> React components).</td><td>various</td></tr>
+  </tbody>
+</table>
+<p style="font-size:11.5px;color:var(--muted)">Screenshots captured for every block variant and full-page images for every page during analysis.</p>
+
+<h2><span class="n">4.</span>Page Counts by Template &amp; Migration Classification</h2>
+<table>
+  <thead><tr><th>Template</th><th class="num">Pages</th><th>Migration Path</th><th>Rationale</th></tr></thead>
+  <tbody>
+    <tr><td>marketing-landing</td><td class="num">319</td><td><span class="pill semi">Mixed</span></td><td>Structurally uniform but hero/feature regions vary; some render client-side.</td></tr>
+    <tr><td>rich-text-article</td><td class="num">49</td><td><span class="pill auto">Automated</span></td><td>Standardized rich text.</td></tr>
+    <tr><td>editorial-travel-guide</td><td class="num">21</td><td><span class="pill auto">Automated</span></td><td>Consistent article structure (light manual).</td></tr>
+    <tr><td>client-rendered-content</td><td class="num">18</td><td><span class="pill manual">Manual</span></td><td>Content not in static HTML; must be rebuilt.</td></tr>
+    <tr><td>accordion-content</td><td class="num">15</td><td><span class="pill semi">Semi-auto</span></td><td>Accordion behaviour needs block wiring.</td></tr>
+    <tr><td>news-listing</td><td class="num">10</td><td><span class="pill semi">Semi-auto</span></td><td>Dynamic card feed; needs listing logic.</td></tr>
+    <tr><td>promo-feature</td><td class="num">6</td><td><span class="pill semi">Semi-auto</span></td><td>Campaign composition varies.</td></tr>
+    <tr><td>reference-document</td><td class="num">2</td><td><span class="pill auto">Automated</span></td><td>Sparse text.</td></tr>
+    <tr><td>inspiration-hub</td><td class="num">1</td><td><span class="pill semi">Semi-auto</span></td><td>Index/card grid.</td></tr>
+    <tr><td>destination-detail</td><td class="num">1</td><td><span class="pill semi">Semi-auto</span></td><td>Overview + booking prompt.</td></tr>
+    <tr><td>itinerary-guide</td><td class="num">1</td><td><span class="pill auto">Automated</span></td><td>Editorial content.</td></tr>
+    <tr><td>manage-booking-app</td><td class="num">1</td><td><span class="pill manual">Manual / Exclude</span></td><td>Transactional app, not content.</td></tr>
+    <tr class="total"><td>Total</td><td class="num">444</td><td colspan="2">Automated ≈ 73 (16%) · Bulk-with-QA / semi-auto ≈ 353 (80%) · Manual ≈ 19 (4%)</td></tr>
+  </tbody>
+</table>
+
+<h2><span class="n">5.</span>Integrations Analysis</h2>
+<table>
+  <thead><tr><th>Integration</th><th>Type</th><th>Complexity</th><th>Where used</th></tr></thead>
+  <tbody>
+    <tr><td>Self-hosted Tag Management (<code>tms.virginatlantic.com/.../Bootstrap.js</code>)</td><td>Custom code / embed</td><td class="hi">High</td><td>All pages — loads analytics/marketing tags</td></tr>
+    <tr><td>Analytics data layer (<code>window.digitalData</code> / <code>dataLayer</code>)</td><td>Custom code</td><td class="med">Medium</td><td>All pages</td></tr>
+    <tr><td>Booking engine (<code>flights.</code> / <code>flywith.</code> / <code>vaabrowse.</code>)</td><td>External app (redirect)</td><td class="hi">High</td><td>Booking, manage-booking, check-in, flight-status</td></tr>
+    <tr><td>Facebook / Meta</td><td>Pixel + social</td><td class="med">Low–Med</td><td>Homepage, social links</td></tr>
+    <tr><td>Social embeds (Instagram, Twitter/X, Pinterest, YouTube)</td><td>Embed / link</td><td class="lo">Low</td><td>Footer, editorial pages</td></tr>
+    <tr><td>Flying Club loyalty (<code>vsflyinghub.com</code>)</td><td>External app</td><td class="med">Medium</td><td>Flying Club section</td></tr>
+    <tr><td>Cross-property links (Cargo, Careers, Virgin Holidays)</td><td>Link-out</td><td class="lo">Low</td><td>Footer / corporate</td></tr>
+    <tr><td>Akamai bot protection / CDN</td><td>Platform</td><td class="med">Medium</td><td>Site-wide (impacts crawl/migration tooling)</td></tr>
+    <tr><td>React/Next.js runtime (<code>__NEXT_DATA__</code>)</td><td>Framework</td><td class="hi">High</td><td>Client-rendered content pages</td></tr>
+  </tbody>
+</table>
+<p style="font-size:11.5px;color:var(--muted)">The self-hosted TMS obscures the exact downstream vendors (Adobe/Google/etc. load dynamically). A runtime network audit during migration is recommended to enumerate the full tag list.</p>
+
+<h2><span class="n">6.</span>Complex Use Cases &amp; Observations</h2>
+<table>
+  <thead><tr><th class="num">#</th><th>Complex behaviour</th><th class="num">Instances</th><th>Where</th><th>Why complex</th></tr></thead>
+  <tbody>
+    <tr><td class="num">1</td><td>Client-side-rendered content (React/Next)</td><td class="num">~19</td><td>client-rendered-content, manage-booking</td><td>Content absent from static HTML; must be re-authored.</td></tr>
+    <tr><td class="num">2</td><td>Booking / transactional apps</td><td class="num">subdomains</td><td>flights/flywith/vaabrowse</td><td>Out of EDS scope; require integration or link-out.</td></tr>
+    <tr><td class="num">3</td><td>"My booking" flyout + session state</td><td class="num">all pages</td><td>Global header</td><td>Auth-gated actions depend on session.</td></tr>
+    <tr><td class="num">4</td><td>Dynamic news/advisory listing</td><td class="num">10</td><td>news-listing</td><td>Date-sorted feed with pagination.</td></tr>
+    <tr><td class="num">5</td><td>Interactive blocks (accordion, tabs, carousel, form)</td><td class="num">~21</td><td>accordion/tabs/carousel/form</td><td>Require JS behaviour beyond static content.</td></tr>
+    <tr><td class="num">6</td><td>8 custom/unknown block variants</td><td class="num">~36 uses</td><td>across templates</td><td>No standard EDS equivalent; bespoke modeling required.</td></tr>
+    <tr><td class="num">7</td><td>Self-hosted TMS / analytics</td><td class="num">site-wide</td><td>All pages</td><td>Full vendor list hidden behind bootstrap loader.</td></tr>
+    <tr><td class="num">8</td><td>Bot protection (Akamai)</td><td class="num">site-wide</td><td>All pages</td><td>Throttles/blocks automated import tooling.</td></tr>
+    <tr><td class="num">9</td><td>Deep multilingual/locale sitemap</td><td class="num">446 / ~19 locales</td><td>sitemap</td><td>en-IN content largely shared across locales; multi-locale rollout multiplies effort.</td></tr>
+  </tbody>
+</table>
+
+<h2><span class="n">7.</span>Migration Estimates</h2>
+<p>Estimates cover the <strong>en-IN content layer only</strong> (446 pages, 12 templates, 27 blocks). Excludes the booking engine and other transactional apps.</p>
+
+<h3>Effort by workstream</h3>
+<table>
+  <thead><tr><th>Workstream</th><th>Estimate</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td>Block development (27 variants → ~12–15 EDS blocks + variations)</td><td>12–16 days</td><td>Incl. 8 custom + interactive (form/tabs/carousel/accordion)</td></tr>
+    <tr><td>Template setup (12 templates)</td><td>5–7 days</td><td>Auto-block rules, section styling</td></tr>
+    <tr><td>Automated import (~73 clean pages)</td><td>2–3 days</td><td>Scripted bulk import</td></tr>
+    <tr><td>Bulk-with-QA import (~353 pages)</td><td>8–12 days</td><td>Import + per-page correction</td></tr>
+    <tr><td>Manual migration (~19 client-rendered/app pages)</td><td>4–6 days</td><td>Re-authoring</td></tr>
+    <tr><td>Header / footer / navigation (global)</td><td>3–5 days</td><td>Mega-menu + "My booking" flyout</td></tr>
+    <tr><td>Integrations &amp; analytics re-implementation</td><td>4–6 days</td><td>TMS/data-layer/tag re-wire + runtime audit</td></tr>
+    <tr><td>QA &amp; testing (functional, visual, a11y, PageSpeed)</td><td>8–10 days</td><td>Target Lighthouse 100</td></tr>
+    <tr><td>Project mgmt / UAT / fixes</td><td>5–7 days</td><td></td></tr>
+  </tbody>
+</table>
+
+<h3>Totals</h3>
+<table>
+  <thead><tr><th>Metric</th><th>Estimate</th></tr></thead>
+  <tbody>
+    <tr><td>Total effort</td><td><strong>~51–72 person-days</strong> (≈ 10–14 weeks of work)</td></tr>
+    <tr><td>Recommended team</td><td>2 developers + 1 QA + PM (part-time)</td></tr>
+    <tr><td>Calendar schedule</td><td><strong>~8–10 weeks</strong> with the team above</td></tr>
+    <tr><td>Indicative cost</td><td>At a blended ~$600/day → <strong>≈ $30k–$43k</strong> (adjust to your rates)</td></tr>
+  </tbody>
+</table>
+
+<h3>Recommended phasing</h3>
+<ul>
+  <li>Phase 1 — Blocks + templates + global navigation</li>
+  <li>Phase 2 — Automated + bulk import of the ~419 content pages</li>
+  <li>Phase 3 — Manual rebuild of the 19 dynamic pages + integrations</li>
+  <li>Phase 4 — QA / UAT</li>
+</ul>
+
+<h2><span class="n">8.</span>Caveats &amp; Assumptions</h2>
+<ul>
+  <li>The site sits behind bot protection; a small number of rapid requests were throttled during discovery. Final page coverage was still 99.6%.</li>
+  <li>The 63 non-fatal errors logged during the run were mostly transient navigation/redirect retries on a JS-heavy site — they did not reduce final coverage.</li>
+  <li>Booking, check-in, flight-status and account flows are separate applications and are <strong>not</strong> included in the content-migration counts or estimates above.</li>
+  <li>Cost figures are indicative and use a placeholder blended day rate; adjust to your actual rates.</li>
+</ul>
+
+<h2><span class="n">9.</span>Analysis Artifacts</h2>
+<table>
+  <thead><tr><th>Artifact</th><th>Description</th></tr></thead>
+  <tbody>
+    <tr><td><code>template-catalog.json</code></td><td>12 named templates with page assignments and reference URLs</td></tr>
+    <tr><td><code>block-catalog.json</code></td><td>27 block variants with usage counts and canonical models</td></tr>
+    <tr><td><code>summary.json</code></td><td>Site metrics and coverage summary</td></tr>
+    <tr><td><code>urls-all.json</code> / <code>urls-grouped.json</code></td><td>446 discovered URLs, grouped by directory pattern</td></tr>
+    <tr><td><code>.pages/{slug}/full-page.jpg</code></td><td>Full-page screenshot per analysed page</td></tr>
+    <tr><td><code>.blocks/{variant}/screenshots/</code></td><td>Screenshots per block variant</td></tr>
+  </tbody>
+</table>
+
+<footer class="doc">
+  Virgin Atlantic (en-IN) — EDS Migration Handover · Generated 2026-08-25 · Content-layer scope only (excludes transactional booking applications).
+</footer>
+
+</div>
+</body>
+</html>

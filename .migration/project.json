@@ -1,6 +1,10 @@
 {
-  "previewOrg": "priyasinha20",
-  "previewSite": "ema-project",
   "type": "da",
-  "contentHostUrl": "https://content.da.live/priyasinha20/ema-project/"
+  "sites": {
+    "ema-project": {
+      "previewOrg": "priyasinha20",
+      "previewSite": "ema-project",
+      "contentHostUrl": "https://content.da.live/priyasinha20/ema-project/"
+    }
+  }
 }
