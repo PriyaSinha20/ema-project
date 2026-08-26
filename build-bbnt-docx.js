@@ -156,20 +156,26 @@ children.push(table(['Block (base)', 'Variants', 'Complexity', 'Behaviour / Func
   ['custom / unknown', '7', 'High', 'Composite PageBuilder compositions (heading+image+CTA+paragraph combos).', 'content pages'],
 ], [1600, 850, 1150, 3860, 1800]));
 
-children.push(h2('Block screenshots'));
-const blockShots = [
-  ['header', `${CAT}/.blocks/header-global/screenshots/block-6dd58b428a01.jpg`],
-  ['hero', `${CAT}/.blocks/hero-minimal-dark/screenshots/block-99c222a4a0e7.jpg`],
-  ['cards', `${CAT}/.blocks/cards-moderate-dark/screenshots/block-ff9954a749ef.jpg`],
-  ['carousel', `${CAT}/.blocks/carousel-moderate-dark/screenshots/block-1b2ab466316c.jpg`],
-  ['tabs', `${CAT}/.blocks/tabs-minimal-dark-withimg/screenshots/block-80d5e3aae9b9.jpg`],
-  ['form', `${CAT}/.blocks/form-moderate-dark/screenshots/block-62885ad001ff.jpg`],
-  ['columns', `${CAT}/.blocks/columns-minimal-dark/screenshots/block-a8d9f89f3ce5.jpg`],
-  ['footer', `${CAT}/.blocks/footer-global/screenshots/block-26424ca3b7fd.jpg`],
-];
-for (const [name, path] of blockShots) {
-  children.push(new Paragraph({ spacing: { before: 100, after: 20 }, children: [new TextRun({ text: name, bold: true, size: 20, color: INK })] }));
-  image(path, `Block: ${name}`, 540, 420).forEach((p) => children.push(p));
+children.push(h2('Block screenshots — all 61 variants'));
+children.push(para('Every catalogued block variant is shown below, grouped by base block. Each caption gives the variant identifier and the number of sampled pages it appeared on.', { italics: true, color: '5A5A6A', size: 18 }));
+
+const gallery = JSON.parse(fs.readFileSync(`${CAT}/.block-gallery.json`, 'utf8'));
+// Order base groups sensibly: globals first, then by variant count
+const baseOrder = ['header', 'footer', 'hero', 'cards', 'carousel', 'tabs', 'columns', 'form', 'video', 'embed', 'unknown'];
+const byBase = {};
+for (const g of gallery) { (byBase[g.base] = byBase[g.base] || []).push(g); }
+const orderedBases = [...baseOrder.filter((b) => byBase[b]), ...Object.keys(byBase).filter((b) => !baseOrder.includes(b))];
+
+for (const base of orderedBases) {
+  const variants = byBase[base].sort((a, b) => b.pages - a.pages);
+  children.push(new Paragraph({ spacing: { before: 180, after: 40 },
+    children: [new TextRun({ text: `${base}  (${variants.length} variant${variants.length > 1 ? 's' : ''})`, bold: true, size: 22, color: BBNT_ACCENT })] }));
+  for (const v of variants) {
+    children.push(new Paragraph({ spacing: { before: 80, after: 10 },
+      children: [new TextRun({ text: `${v.name}`, bold: true, size: 18, color: INK }),
+        new TextRun({ text: `   — ${v.pages} page${v.pages === 1 ? '' : 's'}`, size: 16, color: '5A5A6A' })] }));
+    image(v.shot, null, 500, 360).forEach((p) => children.push(p));
+  }
 }
 
 // 4. Page counts
