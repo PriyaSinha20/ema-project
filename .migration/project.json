@@ -6,5 +6,8 @@
       "previewSite": "ema-project",
       "contentHostUrl": "https://content.da.live/priyasinha20/ema-project/"
     }
-  }
+  },
+  "features": [
+    "site-planning"
+  ]
 }
