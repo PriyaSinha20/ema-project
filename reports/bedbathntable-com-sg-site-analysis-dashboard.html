@@ -436,9 +436,9 @@ table.heat td.pg{color:var(--muted);padding:0 8px}
 #view-review .src-open:hover,#view-review .vsrc-open:hover{text-decoration:underline}
 #view-review .vsrc-open{display:block;width:120px;margin-top:2px}
 #view-review .f-core{font-size:11px;width:100%}
-#view-review td.notes{min-width:240px;vertical-align:top}
-/* shorter but wider notes textarea; Tags sits beneath it in the same column */
-#view-review .notes-inp{font-size:12px;line-height:1.5;width:100%;min-width:220px;min-height:54px;height:54px;resize:vertical;font-family:var(--sans)}
+#view-review td.notes{min-width:320px;vertical-align:top}
+/* wider notes textarea; Tags now sits ABOVE it in the same column */
+#view-review .notes-inp{font-size:12px;line-height:1.5;width:100%;min-width:300px;min-height:54px;height:54px;resize:vertical;font-family:var(--sans)}
 #view-review .vbn-inp{font-size:10.5px;width:120px}
 #view-review .vsrc-inp{font-size:9.5px;width:120px;margin-top:3px;color:var(--accent)}
 #view-review .tag-inp{width:100%;font-size:11px}
@@ -451,7 +451,14 @@ table.heat td.pg{color:var(--muted);padding:0 8px}
 #view-review td.classify-cell .rv-flab:first-child{margin-top:0}
 /* give the Main block column the extra room freed by merging the others */
 #view-review td.mainblock-cell{vertical-align:top}
-#view-review td.mainblock-cell .rvzoom.th,#view-review td.mainblock-cell img.th{width:200px;height:124px}
+/* Main block screenshot enlarged 1.5x (was 200x124) */
+#view-review td.mainblock-cell .rvzoom.th,#view-review td.mainblock-cell img.th{width:300px;height:186px}
+/* de-emphasise the other Main block content so the screenshot dominates */
+#view-review td.mainblock-cell .mbmeta{gap:3px}
+#view-review td.mainblock-cell .f-name{font-size:11px}
+#view-review td.mainblock-cell .f-id{font-size:9.5px}
+#view-review td.mainblock-cell .f-src{font-size:9.5px}
+#view-review td.mainblock-cell .mvrow select,#view-review td.mainblock-cell .rowbtn{font-size:10px}
 /* merged Classification cell in the summary table: badges wrap neatly */
 #view-review td.classify-sum{white-space:normal;line-height:2}
 #view-review td.classify-sum .core-tag{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10.5px;font-family:var(--mono);background:var(--panel-2);color:var(--muted);border:1px solid var(--line)}
@@ -1308,7 +1315,7 @@ renderers.overview();rendered.overview=true;
   function mainImgCell(b){ var s=imgSrc(b.img); if(s) return '<img class="rvzoom th" src="'+s+'" data-title="'+esc(b.name)+'" alt="">'; return '<div class="imgdrop main-imgdrop" data-id="'+b.id+'"><b>＋</b>Add image<span>paste · drop · click</span></div>'; }
   function blocksTable(){
     var mains=displayMains();
-    var h=controlsHtml()+'<div class="hilr-tblwrap"><table class="hilr-t"><thead><tr><th style="width:40px">Incl.</th><th style="width:40%">Main block</th><th>Variations</th><th style="width:22%">Notes &amp; Tags</th><th style="width:150px">Classification</th></tr></thead><tbody>';
+    var h=controlsHtml()+'<div class="hilr-tblwrap"><table class="hilr-t"><thead><tr><th style="width:40px">Incl.</th><th style="width:34%">Main block</th><th>Variations</th><th style="width:26%">Tags &amp; Notes</th><th style="width:150px">Classification</th></tr></thead><tbody>';
     if(!allMains().length){ h+='<tr><td colspan="5"><div class="rv-empty"><h3>No blocks yet</h3><div>Copy a screenshot, then press <b>⌘/Ctrl+V</b> — or drop images on the zone above — to add your first block.</div></div></td></tr>'; return h+'</tbody></table></div>'; }
     if(!mains.length) h+='<tr><td colspan="5" class="muted c">No blocks match the current filter.</td></tr>';
     mains.forEach(function(b){
@@ -1335,8 +1342,8 @@ renderers.overview();rendered.overview=true;
         +'<td class="c"><input type="checkbox" class="sel-chk" data-id="'+b.id+'" title="Include in summary and effort"'+(incl?' checked':'')+'></td>'
         +'<td class="mainblock-cell">'+main+'</td>'
         +'<td><div class="hint">'+kids.length+' variation'+(kids.length!==1?'s':'')+'</div><div class="vrow">'+vh+'</div></td>'
-        +'<td class="notes"><textarea class="notes-inp" data-id="'+b.id+'" placeholder="Notes…">'+esc(b.notes)+'</textarea>'
-          +'<label class="rv-flab">Tags</label><input type="text" class="tag-inp" data-id="'+b.id+'" value="'+esc((b.tags||[]).join(', '))+'" placeholder="tag1, tag2"></td>'
+        +'<td class="notes"><label class="rv-flab">Tags</label><input type="text" class="tag-inp" data-id="'+b.id+'" value="'+esc((b.tags||[]).join(', '))+'" placeholder="tag1, tag2">'
+          +'<label class="rv-flab">Notes</label><textarea class="notes-inp" data-id="'+b.id+'" placeholder="Notes…">'+esc(b.notes)+'</textarea></td>'
         +'<td class="classify-cell">'
           +'<label class="rv-flab">Build complexity</label>'+cxsel
           +'<label class="rv-flab">Type</label>'+tysel
