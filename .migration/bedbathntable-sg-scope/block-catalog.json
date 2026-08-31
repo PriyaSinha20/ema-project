@@ -1,7 +1,1176 @@
 {
- "captured": "2026-08-31T06:52:25.517Z",
- "totalInstances": 0,
- "totalVariants": 0,
- "baseSummary": [],
- "variants": []
+ "captured": "2026-08-31T07:15:44.920Z",
+ "totalInstances": 134,
+ "totalVariants": 61,
+ "baseSummary": [
+  {
+   "base": "hero",
+   "variants": 13,
+   "instances": 40
+  },
+  {
+   "base": "unknown",
+   "variants": 7,
+   "instances": 36
+  },
+  {
+   "base": "form",
+   "variants": 20,
+   "instances": 34
+  },
+  {
+   "base": "media",
+   "variants": 11,
+   "instances": 11
+  },
+  {
+   "base": "list",
+   "variants": 5,
+   "instances": 5
+  },
+  {
+   "base": "iframe-embed",
+   "variants": 2,
+   "instances": 4
+  },
+  {
+   "base": "cards",
+   "variants": 1,
+   "instances": 2
+  },
+  {
+   "base": "nav",
+   "variants": 2,
+   "instances": 2
+  }
+ ],
+ "variants": [
+  {
+   "base": "cards",
+   "key": "cards::cards-moderate-dark",
+   "instances": 2,
+   "pagesFound": 2,
+   "repFile": "excat-cards-moderate-dark.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-cards-moderate-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-cards-moderate-dark.jpg"
+    }
+   ],
+   "topLabel": "heading + text"
+  },
+  {
+   "base": "form",
+   "key": "form::form-moderate-dark",
+   "instances": 13,
+   "pagesFound": 13,
+   "repFile": "excat-form-moderate-dark.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-moderate-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-form-moderate-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-form-moderate-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-form-moderate-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-form-moderate-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-form-moderate-dark.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 1 CTAs + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-8",
+   "instances": 3,
+   "pagesFound": 3,
+   "repFile": "excat-form-minimal-dark-withimg-8.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-8.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-8.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-8.jpg"
+    }
+   ],
+   "topLabel": "text + 383 CTAs + 388 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "text + 106 CTAs + 157 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "text + 1 CTAs"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-1",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-1.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "text + 248 CTAs + 341 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-1",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-1.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-1.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 1 CTAs + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-2",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-2.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-2.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 33 CTAs + 28 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-3",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-3.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-3.jpg"
+    }
+   ],
+   "topLabel": "text + 100 CTAs + 141 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-4",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-4.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-4.jpg"
+    }
+   ],
+   "topLabel": "text + 36 CTAs + 41 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-5",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-5.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-5.jpg"
+    }
+   ],
+   "topLabel": "text + 233 CTAs + 332 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-6",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-6.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-6.jpg"
+    }
+   ],
+   "topLabel": "text + 383 CTAs + 364 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-7",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-7.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-7.jpg"
+    }
+   ],
+   "topLabel": "text + 383 CTAs + 376 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-9",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-9.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-9.jpg"
+    }
+   ],
+   "topLabel": "text + 51 CTAs + 83 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-10",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-10.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-10.jpg"
+    }
+   ],
+   "topLabel": "text + 295 CTAs + 298 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-11",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-11.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-11.jpg"
+    }
+   ],
+   "topLabel": "text + 107 CTAs + 130 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-12",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-12.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-12.jpg"
+    }
+   ],
+   "topLabel": "text + 40 CTAs + 53 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-13",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-13.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-13.jpg"
+    }
+   ],
+   "topLabel": "text + 68 CTAs + 43 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-14",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-14.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-14.jpg"
+    }
+   ],
+   "topLabel": "text + 375 CTAs + 373 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-15",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-15.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-15.jpg"
+    }
+   ],
+   "topLabel": "text + 319 CTAs + 140 images + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark-withimg-16",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-form-minimal-dark-withimg-16.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-form-minimal-dark-withimg-16.jpg"
+    }
+   ],
+   "topLabel": "text + 145 CTAs + 127 images + list"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark",
+   "instances": 7,
+   "pagesFound": 7,
+   "repFile": "excat-hero-minimal-dark.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "heading + text + list"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-3",
+   "instances": 6,
+   "pagesFound": 6,
+   "repFile": "excat-hero-minimal-dark-3.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-3.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-3.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-3.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-3.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-3.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-3.jpg"
+    }
+   ],
+   "topLabel": "heading + list"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg-3",
+   "instances": 5,
+   "pagesFound": 5,
+   "repFile": "excat-hero-minimal-dark-withimg-3.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg-3.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg-3.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg-3.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg-3.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg-3.jpg"
+    }
+   ],
+   "topLabel": "image"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-2",
+   "instances": 5,
+   "pagesFound": 5,
+   "repFile": "excat-hero-minimal-dark-2.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-2.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-2.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-2.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-2.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-2.jpg"
+    }
+   ],
+   "topLabel": "heading + text"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-moderate-dark-1",
+   "instances": 4,
+   "pagesFound": 4,
+   "repFile": "excat-hero-moderate-dark-1.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-moderate-dark-1.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-moderate-dark-1.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-moderate-dark-1.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-moderate-dark-1.jpg"
+    }
+   ],
+   "topLabel": "heading + text + list"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg",
+   "instances": 3,
+   "pagesFound": 3,
+   "repFile": "excat-hero-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 26 images"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-moderate-dark",
+   "instances": 3,
+   "pagesFound": 3,
+   "repFile": "excat-hero-moderate-dark.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-moderate-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-moderate-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-moderate-dark.jpg"
+    }
+   ],
+   "topLabel": "heading"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-1",
+   "instances": 2,
+   "pagesFound": 2,
+   "repFile": "excat-hero-minimal-dark-1.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-1.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-1.jpg"
+    }
+   ],
+   "topLabel": "list"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg-1",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-hero-minimal-dark-withimg-1.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 32 images"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg-2",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-hero-minimal-dark-withimg-2.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg-2.jpg"
+    }
+   ],
+   "topLabel": "heading + text + image"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg-4",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-hero-minimal-dark-withimg-4.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg-4.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 14 CTAs + 12 images"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg-5",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-hero-minimal-dark-withimg-5.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg-5.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 18 images"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg-6",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-hero-minimal-dark-withimg-6.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-hero-minimal-dark-withimg-6.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 34 images"
+  },
+  {
+   "base": "iframe-embed",
+   "key": "iframe-embed::embed-minimal-light",
+   "instances": 3,
+   "pagesFound": 3,
+   "repFile": "excat-embed-minimal-light.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-embed-minimal-light.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-embed-minimal-light.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-embed-minimal-light.jpg"
+    }
+   ],
+   "topLabel": "list"
+  },
+  {
+   "base": "iframe-embed",
+   "key": "iframe-embed::embed-minimal-dark-withimg",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-embed-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-embed-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 2 images"
+  },
+  {
+   "base": "list",
+   "key": "list::tabs-minimal-dark-withimg",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-tabs-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-tabs-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "22 CTAs + 19 images + list"
+  },
+  {
+   "base": "list",
+   "key": "list::tabs-minimal-dark-withimg-1",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-tabs-minimal-dark-withimg-1.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-tabs-minimal-dark-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 26 CTAs + 22 images + list"
+  },
+  {
+   "base": "list",
+   "key": "list::tabs-minimal-dark-withimg-2",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-tabs-minimal-dark-withimg-2.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-tabs-minimal-dark-withimg-2.jpg"
+    }
+   ],
+   "topLabel": "22 CTAs + 18 images + list"
+  },
+  {
+   "base": "list",
+   "key": "list::tabs-minimal-dark-withimg-3",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-tabs-minimal-dark-withimg-3.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-tabs-minimal-dark-withimg-3.jpg"
+    }
+   ],
+   "topLabel": "25 CTAs + 20 images + list"
+  },
+  {
+   "base": "list",
+   "key": "list::tabs-minimal-dark-withimg-4",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-tabs-minimal-dark-withimg-4.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-tabs-minimal-dark-withimg-4.jpg"
+    }
+   ],
+   "topLabel": "24 CTAs + 20 images + list"
+  },
+  {
+   "base": "media",
+   "key": "media::video-moderate-dark-withimg",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-video-moderate-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-video-moderate-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 2 images"
+  },
+  {
+   "base": "media",
+   "key": "media::columns-minimal-dark",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-columns-minimal-dark.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-columns-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "6 CTAs"
+  },
+  {
+   "base": "media",
+   "key": "media::carousel-minimal-dark-withimg",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-carousel-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-carousel-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + 4 CTAs + 4 images + list"
+  },
+  {
+   "base": "media",
+   "key": "media::video-minimal-dark-withimg",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-video-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-video-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "4 images"
+  },
+  {
+   "base": "media",
+   "key": "media::carousel-minimal-dark-withimg-1",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-carousel-minimal-dark-withimg-1.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-carousel-minimal-dark-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 2 CTAs + 8 images"
+  },
+  {
+   "base": "media",
+   "key": "media::carousel-moderate-dark",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-carousel-moderate-dark.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-carousel-moderate-dark.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 2 images"
+  },
+  {
+   "base": "media",
+   "key": "media::columns-minimal-dark-1",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-columns-minimal-dark-1.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-columns-minimal-dark-1.jpg"
+    }
+   ],
+   "topLabel": "content"
+  },
+  {
+   "base": "media",
+   "key": "media::columns-minimal-dark-2",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-columns-minimal-dark-2.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-columns-minimal-dark-2.jpg"
+    }
+   ],
+   "topLabel": "heading + text"
+  },
+  {
+   "base": "media",
+   "key": "media::carousel-minimal-dark-withimg-2",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-carousel-minimal-dark-withimg-2.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-carousel-minimal-dark-withimg-2.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 4 CTAs + 6 images + list"
+  },
+  {
+   "base": "media",
+   "key": "media::columns-minimal-dark-withimg",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-columns-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-columns-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "text + 5 CTAs + image + list"
+  },
+  {
+   "base": "media",
+   "key": "media::columns-minimal-dark-withimg-1",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-columns-minimal-dark-withimg-1.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-columns-minimal-dark-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "text + 68 CTAs + 28 images + list"
+  },
+  {
+   "base": "nav",
+   "key": "nav::footer-global",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-footer-global.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-footer-global.jpg"
+    }
+   ],
+   "topLabel": "Block variant: footer"
+  },
+  {
+   "base": "nav",
+   "key": "nav::header-global",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-header-global.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-header-global.jpg"
+    }
+   ],
+   "topLabel": "Block variant: header"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::2 ctas + 3 paragraphs block-minimal-light",
+   "instances": 18,
+   "pagesFound": 18,
+   "repFile": "excat-2-ctas-3-paragraphs-block-minimal-light.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-2-ctas-3-paragraphs-block-minimal-light.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-2-ctas-3-paragraphs-block-minimal-light.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-2-ctas-3-paragraphs-block-minimal-light.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-2-ctas-3-paragraphs-block-minimal-light.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-2-ctas-3-paragraphs-block-minimal-light.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-2-ctas-3-paragraphs-block-minimal-light.jpg"
+    }
+   ],
+   "topLabel": "text + 2 CTAs"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::2 images block-minimal-dark-withimg",
+   "instances": 6,
+   "pagesFound": 6,
+   "repFile": "excat-2-images-block-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-2-images-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-2-images-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-2-images-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-2-images-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-2-images-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-2-images-block-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "2 images"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::1 heading + 2 images + 1 cta + 1 paragraph block-minimal-dark-withimg",
+   "instances": 5,
+   "pagesFound": 5,
+   "repFile": "excat-1-heading-2-images-1-cta-1-paragraph-block-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-1-heading-2-images-1-cta-1-paragraph-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-1-heading-2-images-1-cta-1-paragraph-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-1-heading-2-images-1-cta-1-paragraph-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-1-heading-2-images-1-cta-1-paragraph-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-1-heading-2-images-1-cta-1-paragraph-block-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 1 CTAs + 2 images"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::1 cta block-minimal-dark",
+   "instances": 3,
+   "pagesFound": 3,
+   "repFile": "excat-1-cta-block-minimal-dark.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-1-cta-block-minimal-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-1-cta-block-minimal-dark.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-1-cta-block-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "1 CTAs"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::1 heading + 1 image + 1 paragraph block-minimal-dark-withimg",
+   "instances": 2,
+   "pagesFound": 2,
+   "repFile": "excat-1-heading-1-image-1-paragraph-block-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-1-heading-1-image-1-paragraph-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "",
+     "file": "excat-1-heading-1-image-1-paragraph-block-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + image"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::4 images block-minimal-dark-withimg",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-4-images-block-minimal-dark-withimg.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-4-images-block-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "4 images"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::1 heading + 1 cta + 2 paragraphs block-minimal-dark",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "excat-1-heading-1-cta-2-paragraphs-block-minimal-dark.jpg",
+   "repUrl": "",
+   "samples": [
+    {
+     "url": "",
+     "file": "excat-1-heading-1-cta-2-paragraphs-block-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 1 CTAs"
+  }
+ ]
 }

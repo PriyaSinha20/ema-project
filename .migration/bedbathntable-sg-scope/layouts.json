@@ -1,64 +1,103 @@
 {
- "captured": "2026-08-31T06:45:45.985Z",
- "renderedPages": 410,
- "distinctSignatures": 1,
+ "captured": "2026-08-31T07:15:45.272Z",
+ "renderedPages": 51,
+ "distinctSignatures": 4,
  "templates": [
   {
-   "signature": "(empty)",
-   "family": "empty",
-   "rendered": 410,
-   "estPop": 6735,
+   "signature": "commerce-standard",
+   "family": "commerce-standard",
+   "name": "commerce-standard",
+   "rendered": 43,
+   "estPop": 5696,
    "urls": [
-    "https://www.bedbathntable.com.sg/apparel/apparel",
-    "https://www.bedbathntable.com.sg/apparel/accessories/tote-bags-shoppers",
-    "https://www.bedbathntable.com.sg/apparel/accessories",
-    "https://www.bedbathntable.com.sg/apparel/accessories/hot-water-bottles",
     "https://www.bedbathntable.com.sg/",
-    "https://www.bedbathntable.com.sg/apparel/apparel/pyjamas/flannelette-pyjamas",
-    "https://www.bedbathntable.com.sg/apparel/apparel/slippers-boots",
-    "https://www.bedbathntable.com.sg/apparel/apparel/hooded-sherpa-blankets"
+    "https://www.bedbathntable.com.sg/apparel",
+    "https://www.bedbathntable.com.sg/bamboo-coaster-set-6-sage-19168214",
+    "https://www.bedbathntable.com.sg/bath",
+    "https://www.bedbathntable.com.sg/bed",
+    "https://www.bedbathntable.com.sg/blog/decorate-your-pop-up-tree",
+    "https://www.bedbathntable.com.sg/blog/decorating-for-easter",
+    "https://www.bedbathntable.com.sg/blog/mulberry-silk",
+    "https://www.bedbathntable.com.sg/blog/traditional-christmas-table",
+    "https://www.bedbathntable.com.sg/brands",
+    "https://www.bedbathntable.com.sg/brands/cotton-house",
+    "https://www.bedbathntable.com.sg/brands/harlequin",
+    "https://www.bedbathntable.com.sg/christmas/christmas-table/table-linen",
+    "https://www.bedbathntable.com.sg/christmas/lights",
+    "https://www.bedbathntable.com.sg/christmas/trees-decorations",
+    "https://www.bedbathntable.com.sg/christmas/trees-decorations/christmas-trees",
+    "https://www.bedbathntable.com.sg/christmas/trees-decorations/tree-decorations",
+    "https://www.bedbathntable.com.sg/christmas/trees-decorations/tree-toppers",
+    "https://www.bedbathntable.com.sg/drinking-wine-tea-towel-grey-red-21686101",
+    "https://www.bedbathntable.com.sg/fairley-ribbed-coupe-395ml-green-22810601"
    ],
-   "sections": {
-    "apparel": 10,
-    "(home)": 1,
-    "bath": 34,
-    "bed": 92,
-    "blog": 3,
-    "brands": 4,
-    "catalog": 8,
-    "christmas-sale": 10,
-    "christmas": 25,
-    "clearance-online": 4,
-    "easter": 14,
-    "felt-tree-with-stars-cream-22590901": 1,
-    "gift": 21,
-    "home-decor": 28,
-    "homewares": 33,
-    "kids": 13,
-    "oliver-queen-quilt-cover-ink-taupe-stripe-21205601": 1,
-    "outdoor": 21,
-    "products": 20,
-    "sale": 35,
-    "table": 31,
-    "zuri-super-king-sheet-set-mustard-21690601": 1
-   },
+   "sampleUrl": "https://www.bedbathntable.com.sg/",
+   "shot": "t00_commerce-standard.jpg",
+   "sections": {},
    "locales": {
-    "root": 410
+    "root": 43
    },
-   "blockCountMode": {
-    "0": 410
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "content-editorial",
+   "family": "content-editorial",
+   "name": "content-editorial",
+   "rendered": 5,
+   "estPop": 662,
+   "urls": [
+    "https://www.bedbathntable.com.sg/blog/authors",
+    "https://www.bedbathntable.com.sg/christmas/christmas-table/tea-towels",
+    "https://www.bedbathntable.com.sg/easter",
+    "https://www.bedbathntable.com.sg/milton-charcoal-110102",
+    "https://www.bedbathntable.com.sg/sale/apparel-sale/robes-sale"
+   ],
+   "sampleUrl": "https://www.bedbathntable.com.sg/blog/authors",
+   "shot": "t01_content-editorial.jpg",
+   "sections": {},
+   "locales": {
+    "root": 5
    },
-   "topSections": [
-    "bed(92)",
-    "sale(35)",
-    "bath(34)",
-    "homewares(33)",
-    "table(31)"
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "blog-article",
+   "family": "blog-article",
+   "name": "blog-article",
+   "rendered": 2,
+   "estPop": 265,
+   "urls": [
+    "https://www.bedbathntable.com.sg/blog/behind-the-scenes",
+    "https://www.bedbathntable.com.sg/blog/buying-and-care-guides"
    ],
-   "topLocales": [
-    "root:410"
+   "sampleUrl": "https://www.bedbathntable.com.sg/blog/behind-the-scenes",
+   "shot": "t02_blog-article.jpg",
+   "sections": {},
+   "locales": {
+    "root": 2
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "product-detail",
+   "family": "product-detail",
+   "name": "product-detail",
+   "rendered": 1,
+   "estPop": 132,
+   "urls": [
+    "https://www.bedbathntable.com.sg/hana-breakfast-bowl-white-22497601"
    ],
-   "name": "minimal-page"
+   "sampleUrl": "https://www.bedbathntable.com.sg/hana-breakfast-bowl-white-22497601",
+   "shot": "t03_product-detail.jpg",
+   "sections": {},
+   "locales": {
+    "root": 1
+   },
+   "blockCountMode": {},
+   "topSections": []
   }
  ]
 }
