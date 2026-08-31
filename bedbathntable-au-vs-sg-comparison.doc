@@ -1,0 +1,135 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>Bed Bath N' Table — AU vs SG Comparison</title>
+<!--[if gte mso 9]><xml><w:WordDocument><w:View>Print</w:View><w:Zoom>100</w:Zoom></w:WordDocument></xml><![endif]-->
+<style>
+  body { font-family: Calibri, Arial, sans-serif; color: #1a1a2e; font-size: 11pt; }
+  h1 { font-size: 16pt; color: #1a1a2e; border-bottom: 2px solid #2E6B4F; padding-bottom: 4px; margin-top: 20px; }
+  h2 { font-size: 13pt; color: #2E6B4F; margin-top: 14px; }
+  .kicker { color: #2E6B4F; font-weight: bold; font-size: 9pt; letter-spacing: 1px; }
+  .title { font-size: 22pt; color: #1F3D2F; font-weight: bold; margin: 4px 0; }
+  .sub { color: #5A5A6A; font-style: italic; font-size: 11pt; }
+  table { border-collapse: collapse; width: 100%; margin: 10px 0; font-size: 9.5pt; }
+  th { background: #1F3D2F; color: #fff; text-align: left; padding: 6px 8px; border: 1px solid #E2E2EA; }
+  td { padding: 6px 8px; border: 1px solid #E2E2EA; vertical-align: top; }
+  tr:nth-child(even) td { background: #F1F5F2; }
+  .same { background: #EAF3EC !important; font-weight: bold; }
+  .diff { background: #FBF0E6 !important; font-weight: bold; }
+  ul { margin: 6px 0; } li { margin: 3px 0; }
+  .note { color: #5A5A6A; font-style: italic; font-size: 9.5pt; }
+  .footer { margin-top: 24px; border-top: 1px solid #E2E2EA; padding-top: 8px; color: #5A5A6A; font-style: italic; font-size: 8.5pt; }
+</style>
+</head>
+<body>
+
+<p class="kicker">EDS MIGRATION — COMPARATIVE ANALYSIS</p>
+<p class="title">Bed Bath N' Table — Australia vs Singapore</p>
+<p class="sub">Commonalities and variations across the two storefronts</p>
+<p>This document compares the migration scope of the two Bed Bath N' Table storefronts analysed — the Australian flagship (bedbathntable.com.au) and the Singapore site (bedbathntable.com.sg) — to highlight what can be reused across both and where they diverge.</p>
+
+<h1>1. At-a-Glance Comparison</h1>
+<table>
+<tr><th>Dimension</th><th>Australia (AU)</th><th>Singapore (SG)</th><th>Verdict</th></tr>
+<tr><td>Platform</td><td>Adobe Commerce (Magento 2) + PageBuilder</td><td>Adobe Commerce (Magento 2) + PageBuilder</td><td class="same">Common</td></tr>
+<tr><td>CDN</td><td>Fastly</td><td>Fastly</td><td class="same">Common</td></tr>
+<tr><td>Sitemap URLs</td><td>2,860</td><td>6,756</td><td class="diff">Variation (SG larger)</td></tr>
+<tr><td>Product pages (PDP)</td><td>2,033</td><td>~5,165</td><td class="diff">Variation</td></tr>
+<tr><td>Functional templates</td><td>7</td><td>8 (functional)</td><td class="same">Mostly common</td></tr>
+<tr><td>Block variants catalogued</td><td>102</td><td>61</td><td class="diff">Variation (AU richer)</td></tr>
+<tr><td>Sample analysed</td><td>77 pages (0 failed)</td><td>51 pages (27 failed / stale)</td><td class="diff">Variation</td></tr>
+<tr><td>Sitemap quality</td><td>Clean, categorized (products/categories/cms/pages)</td><td>Single sitemap, ~35% stale/404</td><td class="diff">Variation</td></tr>
+<tr><td>Store locator</td><td>Dedicated template (~170 pages)</td><td>Not present as template</td><td class="diff">Variation (AU only)</td></tr>
+<tr><td>Experimentation</td><td>AB Tasty (A/B + personalization)</td><td>Not detected</td><td class="diff">Variation (AU only)</td></tr>
+<tr><td>Payment methods</td><td>Afterpay, PayPal, Zip, Apple Pay, Google Pay</td><td>Afterpay, PayPal</td><td class="diff">Variation (AU richer)</td></tr>
+<tr><td>EDS RUM pilot (rum.hlx.page)</td><td>Present</td><td>Present</td><td class="same">Common</td></tr>
+</table>
+
+<h1>2. Commonalities (Reusable Across Both)</h1>
+<p>The two sites share the same brand, platform and design system, so a large share of migration work is reusable.</p>
+<h2>Shared platform &amp; architecture</h2>
+<ul>
+<li>Identical stack: Adobe Commerce (Magento 2) with PageBuilder content, fronted by Fastly CDN.</li>
+<li>Same commerce model: catalog-driven PDPs, faceted PLPs, category landings, cart/checkout/wishlist.</li>
+<li>Both already load Adobe Edge Delivery RUM (rum.hlx.page) — an EDS measurement pilot is in place on each.</li>
+</ul>
+<h2>Shared templates</h2>
+<table>
+<tr><th>Template</th><th>AU</th><th>SG</th></tr>
+<tr><td>commerce-standard (home/category/PLP/PDP shell)</td><td>Yes (63)</td><td>Yes (43)</td></tr>
+<tr><td>product-detail (PDP)</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>product-listing (PLP)</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>category-landing</td><td>Yes</td><td>Yes</td></tr>
+<tr><td>blog / editorial content</td><td>Yes (4)</td><td>Yes (2 article + editorial)</td></tr>
+<tr><td>CMS / static</td><td>Yes</td><td>Yes (in content-editorial)</td></tr>
+</table>
+<h2>Shared blocks (same base components)</h2>
+<p>Base blocks present on BOTH sites — build once and reuse, with per-site design variations:</p>
+<table>
+<tr><th>Base block</th><th>AU variants</th><th>SG variants</th></tr>
+<tr><td>header (global)</td><td>1</td><td>1</td></tr>
+<tr><td>footer (global)</td><td>1</td><td>1</td></tr>
+<tr><td>hero</td><td>12</td><td>13</td></tr>
+<tr><td>form (search/newsletter/cart/filters)</td><td>22</td><td>20</td></tr>
+<tr><td>carousel</td><td>19</td><td>4</td></tr>
+<tr><td>columns</td><td>15</td><td>5</td></tr>
+<tr><td>cards</td><td>2</td><td>1</td></tr>
+<tr><td>tabs</td><td>1</td><td>5</td></tr>
+<tr><td>video</td><td>2</td><td>2</td></tr>
+<tr><td>embed</td><td>2</td><td>2</td></tr>
+<tr><td>custom / unknown (PageBuilder comps)</td><td>20</td><td>7</td></tr>
+</table>
+
+<h1>3. Variations (Site-Specific)</h1>
+<h2>AU-only features</h2>
+<ul>
+<li>Store-locator template: ~170 uniform store pages (address, hours, Get Directions, map, "Search Other Stores"). Requires Google Maps integration and a store data feed.</li>
+<li>AB Tasty experimentation layer (A/B testing + personalization) site-wide — adds a migration decision: migrate experiments or rebuild.</li>
+<li>Richer payments: Zip, Apple Pay and Google Pay in addition to Afterpay + PayPal.</li>
+<li>Google Maps API (store locator) and a dedicated table block (4 variants) for store hours / size guides.</li>
+<li>Higher block diversity: 102 variants vs 61 — notably more carousel (19 vs 4) and columns (15 vs 5), reflecting a more heavily merchandised flagship.</li>
+</ul>
+<h2>SG-only / SG-heavier characteristics</h2>
+<ul>
+<li>Larger raw catalog: 6,756 sitemap URLs (~5,165 PDPs) vs 2,860 — but with ~35% stale/404 entries needing a validation crawl.</li>
+<li>More tabs variants (5 vs 1) — PDP info tabs/accordions used more.</li>
+<li>Single un-categorized sitemap (vs AU's clean products/categories/cms/pages split).</li>
+</ul>
+<h2>Template-count nuance</h2>
+<p>AU discovery separated store-locator, size-guide and CMS/guide as distinct templates (7 total); SG collapsed content into a broader "content-editorial" group (4 total). Functionally both sites cover the same page types — the difference is granularity, not fundamentally different page kinds.</p>
+
+<h1>4. Migration Implications</h1>
+<table>
+<tr><th>Aspect</th><th>Implication</th></tr>
+<tr><td>Shared build</td><td>Build the commerce block library and templates ONCE; both sites reuse ~70–80% of blocks with design-variation theming.</td></tr>
+<tr><td>Sequencing</td><td>Do AU first (cleaner sitemap, store-locator + AB Tasty force the harder integrations early), then SG largely reuses the library.</td></tr>
+<tr><td>SG data hygiene</td><td>SG needs a URL-validation crawl to strip ~35% stale entries before final counts/import.</td></tr>
+<tr><td>AU integrations</td><td>AU adds Google Maps (store locator), AB Tasty, and 3 extra payment methods — scope these as AU-specific.</td></tr>
+<tr><td>PDP automation</td><td>Both: PDPs are data-driven and bulk-automatable from the Magento catalog — the largest volume is the least effort.</td></tr>
+<tr><td>Reuse estimate</td><td>A combined program is materially cheaper than two standalone migrations due to shared blocks/templates.</td></tr>
+</table>
+
+<h1>5. Effort &amp; Cost Comparison</h1>
+<table>
+<tr><th>Metric</th><th>Australia (AU)</th><th>Singapore (SG)</th></tr>
+<tr><td>Total effort (standalone)</td><td>~99–146 person-days</td><td>~90–130 person-days</td></tr>
+<tr><td>Calendar schedule</td><td>~13–19 weeks</td><td>~12–18 weeks</td></tr>
+<tr><td>Indicative cost (~$600/day)</td><td>≈ $59k–$88k</td><td>≈ $54k–$78k</td></tr>
+<tr><td>Auto-migratable pages</td><td>~77%</td><td>~77%</td></tr>
+<tr><td>Key cost drivers</td><td>Store locator, AB Tasty, 5 payments, 102 blocks</td><td>Large catalog, stale-URL cleanup, PLP facets</td></tr>
+</table>
+<p class="note">Combined-program note: because ~70–80% of blocks and all core commerce templates are shared, running both migrations as one program (shared library, per-site theming and content) is expected to cost significantly less than the sum of the two standalone estimates above.</p>
+
+<h1>6. Recommendation</h1>
+<ul>
+<li>Treat AU and SG as a single multi-site program on a shared EDS block library and template set.</li>
+<li>Build and harden on AU first (it forces store-locator + AB Tasty + full payments), then apply to SG with theming + content.</li>
+<li>Run a URL-validation crawl on SG before import to remove stale sitemap entries.</li>
+<li>Automate PDPs on both via the Magento catalog feed; reserve manual effort for merchandised home/campaign pages.</li>
+<li>Decide early whether AB Tasty experiments migrate or are rebuilt in the EDS experimentation model.</li>
+</ul>
+
+<p class="footer">Bed Bath N' Table — AU vs SG Comparative Analysis · Generated 2026-08-27 · Green = commonality, amber = variation. Content/presentation-layer scope; Adobe Commerce backend assumed retained.</p>
+
+</body>
+</html>

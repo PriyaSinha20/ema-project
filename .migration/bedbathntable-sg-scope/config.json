@@ -1,0 +1,18 @@
+{
+  "siteUrl": "https://www.bedbathntable.com.sg/",
+  "siteOrigin": "https://www.bedbathntable.com.sg",
+  "site": "bedbathntable.com.sg",
+  "scope": "Entire domain (Singapore storefront)",
+  "eyebrow": "Bed Bath N' Table SG · Site Analysis",
+  "heroTitle": "Structural analysis of bedbathntable.com.sg",
+  "heroSub": "",
+  "brandLine": "bedbathntable.com.sg<br>Migration Console",
+  "accountName": "Bed Bath N' Table",
+  "locale": "en (single)",
+  "discovery": "XML sitemap (Magento) + crawl fallback",
+  "cjk": false,
+  "catalogFolder": "/backups/PriyaSinha20/ema-project/repo/.migration/bedbathntable-sg-scope",
+  "reportsDir": "/backups/PriyaSinha20/ema-project/repo/reports",
+  "templateHtml": "/backups/PriyaSinha20/ema-project/repo/.claude/skills/site-analysis-dashboard/templates/dashboard-template.html",
+  "outFile": ""
+}
