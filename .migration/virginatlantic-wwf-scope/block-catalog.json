@@ -1,0 +1,208 @@
+{
+ "captured": "2026-08-31T15:05:29.254Z",
+ "totalInstances": 121,
+ "totalVariants": 9,
+ "baseSummary": [
+  {
+   "base": "cards",
+   "variants": 3,
+   "instances": 113
+  },
+  {
+   "base": "unknown",
+   "variants": 4,
+   "instances": 6
+  },
+  {
+   "base": "form",
+   "variants": 1,
+   "instances": 1
+  },
+  {
+   "base": "table",
+   "variants": 1,
+   "instances": 1
+  }
+ ],
+ "variants": [
+  {
+   "base": "cards",
+   "key": "cards::cards-minimal-dark-withimg",
+   "instances": 107,
+   "pagesFound": 107,
+   "repFile": "va-cards-minimal-dark-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/where-we-fly",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria/lagos",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria/lagos/lagos-airport-guide",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/cape-town",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/cape-town/cape-town-airport-guide",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 1 CTAs + image"
+  },
+  {
+   "base": "cards",
+   "key": "cards::cards-minimal-dark-withimg-1",
+   "instances": 5,
+   "pagesFound": 5,
+   "repFile": "va-cards-minimal-dark-withimg-1.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/saudi-arabia/riyadh-airport-guide",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/saudi-arabia/riyadh-airport-guide",
+     "file": "va-cards-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california",
+     "file": "va-cards-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/where-to-watch-sport-in-la",
+     "file": "va-cards-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/partner-airlines",
+     "file": "va-cards-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/partner-airlines/easyjet",
+     "file": "va-cards-minimal-dark-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "heading + image"
+  },
+  {
+   "base": "cards",
+   "key": "cards::cards-minimal-dark-withimg-2",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "va-cards-minimal-dark-withimg-2.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/perfect-5-day-itinerary",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/perfect-5-day-itinerary",
+     "file": "va-cards-minimal-dark-withimg-2.jpg"
+    }
+   ],
+   "topLabel": "heading + text + image + list"
+  },
+  {
+   "base": "form",
+   "key": "form::form-minimal-dark",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "va-form-minimal-dark.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+     "file": "va-form-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "9 CTAs"
+  },
+  {
+   "base": "table",
+   "key": "table::table-minimal-dark",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "va-table-minimal-dark.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+     "file": "va-table-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "heading + text + image"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::1 heading block-minimal-dark",
+   "instances": 3,
+   "pagesFound": 3,
+   "repFile": "va-1-heading-block-minimal-dark.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa",
+     "file": "va-1-heading-block-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india",
+     "file": "va-1-heading-block-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/seattle",
+     "file": "va-1-heading-block-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "heading"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::1 image block-minimal-dark-withimg",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "va-1-image-block-minimal-dark-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+     "file": "va-1-image-block-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "image"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::1 heading + 1 cta + 1 list block-minimal-dark",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "va-1-heading-1-cta-1-list-block-minimal-dark.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+     "file": "va-1-heading-1-cta-1-list-block-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "heading + 1 CTAs + list"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::7 images block-minimal-dark",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "va-7-images-block-minimal-dark.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+     "file": "va-7-images-block-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "text + 7 images"
+  }
+ ]
+}
