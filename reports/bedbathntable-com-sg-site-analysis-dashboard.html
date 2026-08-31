@@ -1418,21 +1418,28 @@ renderers.overview();rendered.overview=true;
     el.addEventListener('drop', function(e){ e.preventDefault(); e.stopPropagation(); el.classList.remove('drag'); cb(e.dataTransfer.files); });
   }
 
-  // ---------- save a copy ----------
+  // ---------- save a copy (FULL dashboard, with the updated Human Review section baked in) ----------
   function saveCopy(){
     persist();
+    // 1. embed the latest review state into the __review data tag so the saved file
+    //    boots Section 4 from YOUR edits (not the original analysis baseline).
     var tag=document.getElementById('__review'); if(tag) tag.textContent=JSON.stringify(D).split('<').join('\\u003c');
+    // 2. clear ONLY the review view's dynamically-rendered containers so the saved file
+    //    re-renders them fresh from the embedded state on open (prevents stale/duplicated
+    //    markup). Every OTHER section is kept exactly as-is.
     var ids=['rv-eng','rv-blocks','rv-summary','rv-estimate'], snap={};
     ids.forEach(function(id){ var n=document.getElementById(id); if(n){ snap[id]=n.innerHTML; n.innerHTML=''; } });
+    // 3. serialise the whole document (all sections + sidebar + CSS/JS/data intact)
     var out='<!DOCTYPE html>\n'+document.documentElement.outerHTML;
+    // restore the live DOM we just blanked
     ids.forEach(function(id){ var n=document.getElementById(id); if(n) n.innerHTML=snap[id]; });
     var acct=slug(D.engagement.accountName||'');
     var a=document.createElement('a');
     a.href=URL.createObjectURL(new Blob([out],{type:'text/html'}));
-    a.download='bedbathntable-com-sg-block-review'+(acct?'-'+acct:'')+'.html';
+    a.download='site-analysis-dashboard'+(acct?'-'+acct:'')+'.html';
     document.body.appendChild(a); a.click();
     setTimeout(function(){ URL.revokeObjectURL(a.href); a.parentNode&&a.parentNode.removeChild(a); }, 1200);
-    toast('Saved a self-contained copy with your changes.');
+    toast('Saved the full dashboard with your Human Review changes.');
   }
   function resetAll(){
     if(!confirm('Reset the review back to the automated analysis baseline?\n\nThis discards all your manual changes on this device.')) return;
