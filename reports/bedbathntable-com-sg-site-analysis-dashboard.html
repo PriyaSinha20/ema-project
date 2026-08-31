@@ -1147,7 +1147,7 @@ renderers.overview();rendered.overview=true;
 /* ===== Human-in-the-loop Review module ===== */
 (function(){
   var CX=['Simple','Medium','Complex'], TY=['Core','Custom'];
-  var LS_KEY='bedbathntable-com-sg-hilr-review-v1';
+  var LS_KEY='saran-hilr-review-v2-'+(location.pathname.split('/').pop()||'site');
   var FAMILY_TYPE={Cards:'Core',Media:'Core',Table:'Core',Form:'Core',Embed:'Core',Breadcrumbs:'Core',Hero:'Core',List:'Core',Text:'Core','Unknown / Custom':'Custom'};
   var FAMILY_CX={Cards:'Medium',Media:'Simple',Table:'Medium',Form:'Complex',Embed:'Medium',Breadcrumbs:'Simple',Hero:'Medium',List:'Simple',Text:'Simple','Unknown / Custom':'Complex'};
   var FAMILY_CORE={Cards:'Cards',Media:'Media / Image',Table:'Table',Form:'Form',Embed:'Embed / iframe',Breadcrumbs:'Breadcrumbs',Hero:'Hero',List:'Cards / List',Text:'Text',_x:''};
