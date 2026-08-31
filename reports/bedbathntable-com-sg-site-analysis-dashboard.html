@@ -436,11 +436,25 @@ table.heat td.pg{color:var(--muted);padding:0 8px}
 #view-review .src-open:hover,#view-review .vsrc-open:hover{text-decoration:underline}
 #view-review .vsrc-open{display:block;width:120px;margin-top:2px}
 #view-review .f-core{font-size:11px;width:100%}
-#view-review td.notes{min-width:280px}
-#view-review .notes-inp{font-size:12px;line-height:1.5;width:100%;min-width:260px;min-height:96px;resize:vertical;font-family:var(--sans)}
+#view-review td.notes{min-width:240px;vertical-align:top}
+/* shorter but wider notes textarea; Tags sits beneath it in the same column */
+#view-review .notes-inp{font-size:12px;line-height:1.5;width:100%;min-width:220px;min-height:54px;height:54px;resize:vertical;font-family:var(--sans)}
 #view-review .vbn-inp{font-size:10.5px;width:120px}
 #view-review .vsrc-inp{font-size:9.5px;width:120px;margin-top:3px;color:var(--accent)}
-#view-review .tag-inp{width:130px;font-size:11px}
+#view-review .tag-inp{width:100%;font-size:11px}
+/* small field labels used when stacking multiple controls in one cell */
+#view-review .rv-flab{display:block;font-size:9.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:7px 0 2px}
+#view-review td.notes .rv-flab:first-of-type{margin-top:8px}
+/* Classification cell: complexity / type / core stacked vertically */
+#view-review td.classify-cell{vertical-align:top}
+#view-review td.classify-cell .cx-sel,#view-review td.classify-cell .ty-sel,#view-review td.classify-cell .f-core{width:100%}
+#view-review td.classify-cell .rv-flab:first-child{margin-top:0}
+/* give the Main block column the extra room freed by merging the others */
+#view-review td.mainblock-cell{vertical-align:top}
+#view-review td.mainblock-cell .rvzoom.th,#view-review td.mainblock-cell img.th{width:200px;height:124px}
+/* merged Classification cell in the summary table: badges wrap neatly */
+#view-review td.classify-sum{white-space:normal;line-height:2}
+#view-review td.classify-sum .core-tag{display:inline-block;padding:2px 8px;border-radius:20px;font-size:10.5px;font-family:var(--mono);background:var(--panel-2);color:var(--muted);border:1px solid var(--line)}
 #view-review input[type=text],#view-review input[type=number],#view-review textarea,#view-review select{font-family:var(--sans);padding:5px 7px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
 #view-review input:focus,#view-review textarea:focus,#view-review select:focus{outline:none;border-color:var(--accent)}
 #view-review .mvrow{margin-top:4px;display:flex;flex-wrap:wrap;gap:5px}
@@ -1294,9 +1308,9 @@ renderers.overview();rendered.overview=true;
   function mainImgCell(b){ var s=imgSrc(b.img); if(s) return '<img class="rvzoom th" src="'+s+'" data-title="'+esc(b.name)+'" alt="">'; return '<div class="imgdrop main-imgdrop" data-id="'+b.id+'"><b>＋</b>Add image<span>paste · drop · click</span></div>'; }
   function blocksTable(){
     var mains=displayMains();
-    var h=controlsHtml()+'<div class="hilr-tblwrap"><table class="hilr-t"><thead><tr><th style="width:40px">Incl.</th><th>Main block</th><th>Variations</th><th style="min-width:280px">Notes</th><th style="width:112px">Build complexity</th><th style="width:88px">Type</th><th style="width:110px">Core block type</th><th style="width:120px">Tags</th></tr></thead><tbody>';
-    if(!allMains().length){ h+='<tr><td colspan="8"><div class="rv-empty"><h3>No blocks yet</h3><div>Copy a screenshot, then press <b>⌘/Ctrl+V</b> — or drop images on the zone above — to add your first block.</div></div></td></tr>'; return h+'</tbody></table></div>'; }
-    if(!mains.length) h+='<tr><td colspan="8" class="muted c">No blocks match the current filter.</td></tr>';
+    var h=controlsHtml()+'<div class="hilr-tblwrap"><table class="hilr-t"><thead><tr><th style="width:40px">Incl.</th><th style="width:40%">Main block</th><th>Variations</th><th style="width:22%">Notes &amp; Tags</th><th style="width:150px">Classification</th></tr></thead><tbody>';
+    if(!allMains().length){ h+='<tr><td colspan="5"><div class="rv-empty"><h3>No blocks yet</h3><div>Copy a screenshot, then press <b>⌘/Ctrl+V</b> — or drop images on the zone above — to add your first block.</div></div></td></tr>'; return h+'</tbody></table></div>'; }
+    if(!mains.length) h+='<tr><td colspan="5" class="muted c">No blocks match the current filter.</td></tr>';
     mains.forEach(function(b){
       var kids=childrenOf(b.id);
       var main='<div class="mb">'+mainImgCell(b)+'<div class="mbmeta">'
@@ -1319,12 +1333,14 @@ renderers.overview();rendered.overview=true;
       var incl=(b.selected!==false);
       h+='<tr class="brow'+(incl?'':' excluded')+'" data-id="'+b.id+'">'
         +'<td class="c"><input type="checkbox" class="sel-chk" data-id="'+b.id+'" title="Include in summary and effort"'+(incl?' checked':'')+'></td>'
-        +'<td>'+main+'</td>'
+        +'<td class="mainblock-cell">'+main+'</td>'
         +'<td><div class="hint">'+kids.length+' variation'+(kids.length!==1?'s':'')+'</div><div class="vrow">'+vh+'</div></td>'
-        +'<td class="notes"><textarea class="notes-inp" data-id="'+b.id+'" placeholder="Notes…">'+esc(b.notes)+'</textarea></td>'
-        +'<td>'+cxsel+'</td><td>'+tysel+'</td>'
-        +'<td><input type="text" class="f-core" data-id="'+b.id+'" value="'+esc(b.coreBlockType)+'" placeholder="e.g. Cards"></td>'
-        +'<td><input type="text" class="tag-inp" data-id="'+b.id+'" value="'+esc((b.tags||[]).join(', '))+'" placeholder="tag1, tag2"></td></tr>';
+        +'<td class="notes"><textarea class="notes-inp" data-id="'+b.id+'" placeholder="Notes…">'+esc(b.notes)+'</textarea>'
+          +'<label class="rv-flab">Tags</label><input type="text" class="tag-inp" data-id="'+b.id+'" value="'+esc((b.tags||[]).join(', '))+'" placeholder="tag1, tag2"></td>'
+        +'<td class="classify-cell">'
+          +'<label class="rv-flab">Build complexity</label>'+cxsel
+          +'<label class="rv-flab">Type</label>'+tysel
+          +'<label class="rv-flab">Core block type</label><input type="text" class="f-core" data-id="'+b.id+'" value="'+esc(b.coreBlockType)+'" placeholder="e.g. Cards"></td></tr>';
     });
     return h+'</tbody></table></div>';
   }
@@ -1337,17 +1353,17 @@ renderers.overview();rendered.overview=true;
     var fnote=D.ui.filter.length?(' · filtered by tag: '+esc(D.ui.filter.join(', '))):'';
     var h='<div class="selcount">Including <b>'+sel.length+'</b> of '+shown+' shown block'+(shown!==1?'s':'')+' in the summary &amp; effort'+fnote+'.</div>';
     h+='<div class="hilr-stats"><div class="hilr-stat"><div class="n">'+sel.length+'</div><div class="l">Unique blocks</div></div><div class="hilr-stat"><div class="n">'+t.Core+'</div><div class="l">Core</div></div><div class="hilr-stat"><div class="n">'+t.Custom+'</div><div class="l">Custom</div></div><div class="hilr-stat"><div class="n">'+t.vars+'</div><div class="l">Total variations</div></div><div class="hilr-stat"><div class="n">'+t.Simple+' / '+t.Medium+' / '+t.Complex+'</div><div class="l">Simple / Med / Complex</div></div></div>';
-    h+='<div class="hilr-tblwrap"><table class="hilr-t"><thead><tr><th>#</th><th>Consolidated block</th><th>Type</th><th>Variations</th><th>Build complexity</th><th>Tags</th><th>Core type</th></tr></thead><tbody>';
-    sel.forEach(function(b,i){ h+='<tr><td class="muted">'+(i+1)+'</td><td><b>'+esc(b.name||'(unnamed)')+'</b> <span class="mono">'+esc(b.internalId)+'</span></td><td><span class="rvbadge '+b.type.toLowerCase()+'">'+b.type+'</span></td><td class="c">'+childrenOf(b.id).length+'</td><td><span class="cxb cx-'+b.complexity.toLowerCase()+'">'+b.complexity+'</span></td><td class="muted">'+esc((b.tags||[]).join(', '))+'</td><td class="muted">'+esc(b.coreBlockType)+'</td></tr>'; });
-    if(!sel.length) h+='<tr><td colspan="7" class="muted c">No blocks selected — add a block, tick a checkbox, or adjust the filter above.</td></tr>';
+    h+='<div class="hilr-tblwrap"><table class="hilr-t"><thead><tr><th>#</th><th>Consolidated block</th><th>Variations</th><th>Classification</th><th>Tags</th></tr></thead><tbody>';
+    sel.forEach(function(b,i){ h+='<tr><td class="muted">'+(i+1)+'</td><td><b>'+esc(b.name||'(unnamed)')+'</b> <span class="mono">'+esc(b.internalId)+'</span></td><td class="c">'+childrenOf(b.id).length+'</td><td class="classify-sum"><span class="cxb cx-'+b.complexity.toLowerCase()+'">'+b.complexity+'</span> <span class="rvbadge '+b.type.toLowerCase()+'">'+b.type+'</span>'+(b.coreBlockType?' <span class="core-tag">'+esc(b.coreBlockType)+'</span>':'')+'</td><td class="muted">'+esc((b.tags||[]).join(', '))+'</td></tr>'; });
+    if(!sel.length) h+='<tr><td colspan="5" class="muted c">No blocks selected — add a block, tick a checkbox, or adjust the filter above.</td></tr>';
     return h+'</tbody></table></div>';
   }
   function estCounts(){ var c={Core:{Simple:0,Medium:0,Complex:0},Custom:{Simple:0,Medium:0,Complex:0}}; effortMains().forEach(function(b){ if(c[b.type]&&c[b.type][b.complexity]!=null) c[b.type][b.complexity]++; }); return c; }
   function estimateHtml(){
     var c=estCounts(), grand=0;
-    var h='<div class="hilr-tblwrap"><table class="hilr-t"><thead><tr><th style="text-align:left">Block type</th><th>Complexity</th><th>Hours / block</th><th>Count</th><th>Total dev hours</th></tr></thead><tbody>';
-    TY.forEach(function(t){ CX.forEach(function(cx){ var hrs=+D.hours[t][cx]||0, cnt=c[t][cx], tot=hrs*cnt; grand+=tot; h+='<tr><td style="text-align:left">'+t+'</td><td class="c">'+cx+'</td><td class="c"><input type="number" min="0" step="1" class="hr-inp" data-t="'+t+'" data-c="'+cx+'" value="'+hrs+'"></td><td class="c">'+cnt+'</td><td class="c b">'+tot+'</td></tr>'; }); });
-    h+='<tr class="grand"><td colspan="4" style="text-align:right"><b>Total development hours</b></td><td class="c tot">'+grand+'</td></tr></tbody></table></div>';
+    var h='<div class="hilr-tblwrap"><table class="hilr-t"><thead><tr><th style="text-align:left">Block type · Complexity</th><th>Hours / block</th><th>Count</th><th>Total dev hours</th></tr></thead><tbody>';
+    TY.forEach(function(t){ CX.forEach(function(cx){ var hrs=+D.hours[t][cx]||0, cnt=c[t][cx], tot=hrs*cnt; grand+=tot; h+='<tr><td style="text-align:left">'+t+' <span class="cxb cx-'+cx.toLowerCase()+'">'+cx+'</span></td><td class="c"><input type="number" min="0" step="1" class="hr-inp" data-t="'+t+'" data-c="'+cx+'" value="'+hrs+'"></td><td class="c">'+cnt+'</td><td class="c b">'+tot+'</td></tr>'; }); });
+    h+='<tr class="grand"><td colspan="3" style="text-align:right"><b>Total development hours</b></td><td class="c tot">'+grand+'</td></tr></tbody></table></div>';
     h+='<button class="hilr-link hr-reset" type="button">Reset hours to defaults</button> <span class="hint">Counts follow the current grouping, selection and tag filter. Total = hours × count.</span>';
     return h;
   }
