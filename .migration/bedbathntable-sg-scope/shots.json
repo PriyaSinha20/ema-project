@@ -1,0 +1,15 @@
+{
+ "captured": "2026-08-31T06:52:32.176Z",
+ "shots": [
+  {
+   "idx": 0,
+   "name": "minimal-page",
+   "signature": "(empty)",
+   "estPop": 6735,
+   "url": "https://www.bedbathntable.com.sg/apparel/apparel",
+   "file": "t00_minimal-page.jpg",
+   "captured": true,
+   "bytes": 716639
+  }
+ ]
+}

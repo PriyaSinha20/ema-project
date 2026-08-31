@@ -1,0 +1,64 @@
+{
+ "captured": "2026-08-31T06:45:45.985Z",
+ "renderedPages": 410,
+ "distinctSignatures": 1,
+ "templates": [
+  {
+   "signature": "(empty)",
+   "family": "empty",
+   "rendered": 410,
+   "estPop": 6735,
+   "urls": [
+    "https://www.bedbathntable.com.sg/apparel/apparel",
+    "https://www.bedbathntable.com.sg/apparel/accessories/tote-bags-shoppers",
+    "https://www.bedbathntable.com.sg/apparel/accessories",
+    "https://www.bedbathntable.com.sg/apparel/accessories/hot-water-bottles",
+    "https://www.bedbathntable.com.sg/",
+    "https://www.bedbathntable.com.sg/apparel/apparel/pyjamas/flannelette-pyjamas",
+    "https://www.bedbathntable.com.sg/apparel/apparel/slippers-boots",
+    "https://www.bedbathntable.com.sg/apparel/apparel/hooded-sherpa-blankets"
+   ],
+   "sections": {
+    "apparel": 10,
+    "(home)": 1,
+    "bath": 34,
+    "bed": 92,
+    "blog": 3,
+    "brands": 4,
+    "catalog": 8,
+    "christmas-sale": 10,
+    "christmas": 25,
+    "clearance-online": 4,
+    "easter": 14,
+    "felt-tree-with-stars-cream-22590901": 1,
+    "gift": 21,
+    "home-decor": 28,
+    "homewares": 33,
+    "kids": 13,
+    "oliver-queen-quilt-cover-ink-taupe-stripe-21205601": 1,
+    "outdoor": 21,
+    "products": 20,
+    "sale": 35,
+    "table": 31,
+    "zuri-super-king-sheet-set-mustard-21690601": 1
+   },
+   "locales": {
+    "root": 410
+   },
+   "blockCountMode": {
+    "0": 410
+   },
+   "topSections": [
+    "bed(92)",
+    "sale(35)",
+    "bath(34)",
+    "homewares(33)",
+    "table(31)"
+   ],
+   "topLocales": [
+    "root:410"
+   ],
+   "name": "minimal-page"
+  }
+ ]
+}
