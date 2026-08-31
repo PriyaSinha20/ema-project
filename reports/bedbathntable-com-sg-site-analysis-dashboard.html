@@ -1418,50 +1418,28 @@ renderers.overview();rendered.overview=true;
     el.addEventListener('drop', function(e){ e.preventDefault(); e.stopPropagation(); el.classList.remove('drag'); cb(e.dataTransfer.files); });
   }
 
-  // ---------- save a copy (Human Review section ONLY — other sections are not copied) ----------
+  // ---------- save a copy (FULL dashboard, with the updated Human Review section baked in) ----------
   function saveCopy(){
     persist();
-    // 1. embed the latest review state so the saved file boots from it
+    // 1. embed the latest review state into the __review data tag so the saved file
+    //    boots Section 4 from YOUR edits (not the original analysis baseline).
     var tag=document.getElementById('__review'); if(tag) tag.textContent=JSON.stringify(D).split('<').join('\\u003c');
-    // 2. clone the whole live document (keeps all CSS/fonts/JS/data intact), then strip everything
-    //    except the Human Review view so the exported file contains only Section 4.
-    var clone=document.documentElement.cloneNode(true);
-    // remove the sidebar / navigation entirely
-    var aside=clone.querySelector('aside'); if(aside) aside.parentNode.removeChild(aside);
-    // remove every OTHER view, keep only #view-review
-    clone.querySelectorAll('.view').forEach(function(v){ if(v.id!=='view-review') v.parentNode.removeChild(v); });
-    // drop the top bar's menu/nav toggle buttons that referenced the removed sidebar
-    ['#menu-btn','#nav-toggle'].forEach(function(sel){ var b=clone.querySelector(sel); if(b) b.parentNode.removeChild(b); });
-    // set the breadcrumb to the section name (nav is gone)
-    var crumb=clone.querySelector('#crumb'); if(crumb) crumb.textContent='Human Review';
-    // 3. force the review view active + collapse the app grid to a single column, and
-    //    make the export boot straight into the review renderer (skip the nav boot).
-    var reviewView=clone.querySelector('#view-review'); if(reviewView) reviewView.classList.add('active');
-    var bootScript=clone.ownerDocument.createElement('script');
-    bootScript.textContent='(function(){try{'
-      +'document.documentElement.classList.add("review-only");'
-      +'var iv=setInterval(function(){ if(window.__renderReview){ clearInterval(iv);'
-      +'  var v=document.getElementById("view-review"); if(v){v.classList.add("active");}'
-      +'  window.__renderReview();'
-      +'} },40);'
-      +'setTimeout(function(){clearInterval(iv);},5000);'
-      +'}catch(e){}})();';
-    clone.querySelector('body').appendChild(bootScript);
-    // 4. a little CSS so the single remaining view fills the page (no empty sidebar gap)
-    var st=clone.ownerDocument.createElement('style');
-    st.textContent='html.review-only .app{grid-template-columns:1fr!important}'
-      +'html.review-only #view-review{display:block!important}'
-      +'html.review-only #menu-btn,html.review-only #nav-toggle{display:none!important}'
-      +'html.review-only .view-wrap{padding:24px}';
-    clone.querySelector('head').appendChild(st);
-    var out='<!DOCTYPE html>\n'+clone.outerHTML;
+    // 2. clear ONLY the review view's dynamically-rendered containers so the saved file
+    //    re-renders them fresh from the embedded state on open (prevents stale/duplicated
+    //    markup). Every OTHER section is kept exactly as-is.
+    var ids=['rv-eng','rv-blocks','rv-summary','rv-estimate'], snap={};
+    ids.forEach(function(id){ var n=document.getElementById(id); if(n){ snap[id]=n.innerHTML; n.innerHTML=''; } });
+    // 3. serialise the whole document (all sections + sidebar + CSS/JS/data intact)
+    var out='<!DOCTYPE html>\n'+document.documentElement.outerHTML;
+    // restore the live DOM we just blanked
+    ids.forEach(function(id){ var n=document.getElementById(id); if(n) n.innerHTML=snap[id]; });
     var acct=slug(D.engagement.accountName||'');
     var a=document.createElement('a');
     a.href=URL.createObjectURL(new Blob([out],{type:'text/html'}));
-    a.download='block-review'+(acct?'-'+acct:'')+'.html';
+    a.download='site-analysis-dashboard'+(acct?'-'+acct:'')+'.html';
     document.body.appendChild(a); a.click();
     setTimeout(function(){ URL.revokeObjectURL(a.href); a.parentNode&&a.parentNode.removeChild(a); }, 1200);
-    toast('Saved the Human Review section as a standalone file.');
+    toast('Saved the full dashboard with your Human Review changes.');
   }
   function resetAll(){
     if(!confirm('Reset the review back to the automated analysis baseline?\n\nThis discards all your manual changes on this device.')) return;
