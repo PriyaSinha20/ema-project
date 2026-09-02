@@ -1,0 +1,18 @@
+{
+  "siteUrl": "https://www.virginatlantic.com/en-IN/where-we-fly",
+  "siteOrigin": "https://www.virginatlantic.com",
+  "site": "virginatlantic-where-we-fly",
+  "scope": "Virgin Atlantic en-IN — Where We Fly section",
+  "eyebrow": "Virgin Atlantic · Where We Fly · Site Analysis",
+  "heroTitle": "Structural analysis of virginatlantic.com/en-IN/where-we-fly",
+  "heroSub": "",
+  "brandLine": "Virgin Atlantic — Where We Fly<br>Migration Console",
+  "accountName": "Virgin Atlantic",
+  "locale": "en-IN (single)",
+  "discovery": "XML sitemap (hreflang alternates) — where-we-fly pattern",
+  "cjk": false,
+  "catalogFolder": "/backups/PriyaSinha20/ema-project/repo/.migration/virginatlantic-wwf-scope",
+  "reportsDir": "/backups/PriyaSinha20/ema-project/repo/reports",
+  "templateHtml": "/backups/PriyaSinha20/ema-project/repo/.claude/skills/site-analysis-dashboard/templates/dashboard-template.html",
+  "outFile": ""
+}

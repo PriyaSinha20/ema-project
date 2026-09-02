@@ -1,0 +1,127 @@
+{
+ "captured": "2026-08-31T15:58:20.729Z",
+ "renderedPages": 123,
+ "distinctSignatures": 5,
+ "templates": [
+  {
+   "signature": "marketing-landing",
+   "family": "marketing-landing",
+   "name": "marketing-landing",
+   "rendered": 118,
+   "estPop": 118,
+   "urls": [
+    "https://www.virginatlantic.com/en-IN/where-we-fly",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/africa",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria/lagos",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria/lagos/lagos-airport-guide",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/cape-town",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/cape-town/cape-town-airport-guide",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/johannesburg",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/johannesburg/johannesburg-airport-guide",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia/china",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia/china/shanghai",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/bengaluru",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/bengaluru/bengaluru-airport-guide",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/delhi",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/delhi/delhi-airport-guide",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/mumbai",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/mumbai/mumbai-airport-guide"
+   ],
+   "sampleUrl": "https://www.virginatlantic.com/en-IN/where-we-fly",
+   "shot": "t00_marketing-landing.jpg",
+   "complexity": "Complex",
+   "description": "Section-hub landing: hero, promo cards, alternating image+text feature rows, icon-link row. Region/country landing pages (Africa, Asia, Caribbean, USA states, etc.) and the where-we-fly root.",
+   "sections": {},
+   "locales": {
+    "en-IN": 118
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "client-rendered-content",
+   "family": "client-rendered-content",
+   "name": "client-rendered-content",
+   "rendered": 2,
+   "estPop": 2,
+   "urls": [
+    "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/emily-johnston-food-and-fashion-in-socal",
+    "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/hand-luggage-only-pride-and-pinot-la"
+   ],
+   "sampleUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/emily-johnston-food-and-fashion-in-socal",
+   "shot": "t01_client-rendered-content.jpg",
+   "complexity": "Complex",
+   "description": "Airport-guide / content page whose main region is client-rendered (Next.js); static capture shows the shell.",
+   "sections": {},
+   "locales": {
+    "en-IN": 2
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "accordion-content",
+   "family": "accordion-content",
+   "name": "accordion-content",
+   "rendered": 1,
+   "estPop": 1,
+   "urls": [
+    "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/student-offer"
+   ],
+   "sampleUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/student-offer",
+   "shot": "t02_accordion-content.jpg",
+   "complexity": "Medium",
+   "description": "Content page with hero, intro and expand/collapse accordion sections.",
+   "sections": {},
+   "locales": {
+    "en-IN": 1
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "destination-detail",
+   "family": "destination-detail",
+   "name": "destination-detail",
+   "rendered": 1,
+   "estPop": 1,
+   "urls": [
+    "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago"
+   ],
+   "sampleUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+   "shot": "t03_destination-detail.jpg",
+   "complexity": "Medium",
+   "description": "Destination leaf page: hero, destination overview content and booking/flight prompts (e.g. Tobago).",
+   "sections": {},
+   "locales": {
+    "en-IN": 1
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "itinerary-guide",
+   "family": "itinerary-guide",
+   "name": "itinerary-guide",
+   "rendered": 1,
+   "estPop": 1,
+   "urls": [
+    "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/savannah-sachdev-los-angeles-itinerary"
+   ],
+   "sampleUrl": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/savannah-sachdev-los-angeles-itinerary",
+   "shot": "t04_itinerary-guide.jpg",
+   "complexity": "Medium",
+   "description": "Itinerary / editorial guide leaf page with hero and day-by-day / stepped content (e.g. Los Angeles itinerary).",
+   "sections": {},
+   "locales": {
+    "en-IN": 1
+   },
+   "blockCountMode": {},
+   "topSections": []
+  }
+ ]
+}

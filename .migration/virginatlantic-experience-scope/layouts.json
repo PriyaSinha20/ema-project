@@ -1,0 +1,131 @@
+{
+ "captured": "2026-09-02T10:13:09.223Z",
+ "renderedPages": 53,
+ "distinctSignatures": 5,
+ "templates": [
+  {
+   "signature": "marketing-landing",
+   "family": "marketing-landing",
+   "name": "marketing-landing",
+   "rendered": 44,
+   "estPop": 44,
+   "urls": [
+    "https://www.virginatlantic.com/en-IN/experience",
+    "https://www.virginatlantic.com/en-IN/experience/about-us",
+    "https://www.virginatlantic.com/en-IN/experience/economy",
+    "https://www.virginatlantic.com/en-IN/experience/economy/economy-dining",
+    "https://www.virginatlantic.com/en-IN/experience/flying-with-children",
+    "https://www.virginatlantic.com/en-IN/experience/food-and-drink",
+    "https://www.virginatlantic.com/en-IN/experience/food-and-drink/dietary-requirements",
+    "https://www.virginatlantic.com/en-IN/experience/food-and-drink/kids-meals",
+    "https://www.virginatlantic.com/en-IN/experience/food-and-drink/pre-order-pre-select",
+    "https://www.virginatlantic.com/en-IN/experience/food-and-drink/sustainablity-onboard",
+    "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment",
+    "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity",
+    "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+    "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330neo",
+    "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a350-1000",
+    "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/starlink",
+    "https://www.virginatlantic.com/en-IN/experience/meet-our-fleet",
+    "https://www.virginatlantic.com/en-IN/experience/meet-our-fleet/airbus-a330-300",
+    "https://www.virginatlantic.com/en-IN/experience/meet-our-fleet/airbus-a330neo",
+    "https://www.virginatlantic.com/en-IN/experience/meet-our-fleet/airbus-a350"
+   ],
+   "sampleUrl": "https://www.virginatlantic.com/en-IN/experience",
+   "shot": "t00_marketing-landing.jpg",
+   "complexity": "Complex",
+   "description": "Section-hub landing: hero, promo cards, alternating image+text feature rows, icon-link row. Experience sub-section landings (Upper Class, Premium, Economy, food & drink, fleet, upgrades).",
+   "sections": {},
+   "locales": {
+    "en-IN": 44
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "accordion-content",
+   "family": "accordion-content",
+   "name": "accordion-content",
+   "rendered": 3,
+   "estPop": 3,
+   "urls": [
+    "https://www.virginatlantic.com/en-IN/experience/food-and-drink/food-allergies",
+    "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/chauffeur-driven-transfers",
+    "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/meet-and-greet"
+   ],
+   "sampleUrl": "https://www.virginatlantic.com/en-IN/experience/food-and-drink/food-allergies",
+   "shot": "t03_accordion-content.jpg",
+   "complexity": "Medium",
+   "description": "Hero + intro + expand/collapse accordion sections + contact block.",
+   "sections": {},
+   "locales": {
+    "en-IN": 3
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "promo-feature",
+   "family": "promo-feature",
+   "name": "promo-feature",
+   "rendered": 3,
+   "estPop": 3,
+   "urls": [
+    "https://www.virginatlantic.com/en-IN/experience/football-world-cup-2026",
+    "https://www.virginatlantic.com/en-IN/experience/usa-football-tournament-2026",
+    "https://www.virginatlantic.com/en-IN/experience/world-cup-2026"
+   ],
+   "sampleUrl": "https://www.virginatlantic.com/en-IN/experience/football-world-cup-2026",
+   "shot": "t04_promo-feature.jpg",
+   "complexity": "Medium",
+   "description": "Promotional/campaign layout: hero, media-rich sections, CTA blocks (e.g. World Cup 2026).",
+   "sections": {},
+   "locales": {
+    "en-IN": 3
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "rich-text-article",
+   "family": "rich-text-article",
+   "name": "rich-text-article",
+   "rendered": 2,
+   "estPop": 2,
+   "urls": [
+    "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/seating-the-small-print",
+    "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/your-bid-terms-and-conditions"
+   ],
+   "sampleUrl": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/seating-the-small-print",
+   "shot": "t02_rich-text-article.jpg",
+   "complexity": "Low",
+   "description": "Hero banner + breadcrumb + long-form rich text (policies / small-print / dining detail).",
+   "sections": {},
+   "locales": {
+    "en-IN": 2
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "client-rendered-content",
+   "family": "client-rendered-content",
+   "name": "client-rendered-content",
+   "rendered": 1,
+   "estPop": 1,
+   "urls": [
+    "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/b787"
+   ],
+   "sampleUrl": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/b787",
+   "shot": "t01_client-rendered-content.jpg",
+   "complexity": "Complex",
+   "description": "Page whose main content region is client-rendered (Next.js); static capture shows the shell.",
+   "sections": {},
+   "locales": {
+    "en-IN": 1
+   },
+   "blockCountMode": {},
+   "topSections": []
+  }
+ ]
+}

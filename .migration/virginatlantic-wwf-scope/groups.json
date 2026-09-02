@@ -1,0 +1,516 @@
+{
+ "captured": "2026-08-31T14:50:22.993Z",
+ "minGroup": 2,
+ "sampleN": 4,
+ "totalLivePages": 132,
+ "totalGroups": 53,
+ "patternGroups": 15,
+ "longTailPages": 38,
+ "groupMeta": {
+  "/en-IN/where-we-fly/north-america/usa/california/*": {
+   "total": 30,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/north-america/usa/*": {
+   "total": 13,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/caribbean/*": {
+   "total": 11,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/*": {
+   "total": 7,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/asia/*": {
+   "total": 6,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/asia/india/*": {
+   "total": 5,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/europe/uk/*": {
+   "total": 4,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/middle-east/*": {
+   "total": 3,
+   "rendered": 3,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/north-america/*": {
+   "total": 3,
+   "rendered": 3,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/africa/*": {
+   "total": 2,
+   "rendered": 2,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/africa/south-africa/*": {
+   "total": 2,
+   "rendered": 2,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/asia/india/bengaluru/*": {
+   "total": 2,
+   "rendered": 2,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/asia/pakistan/*": {
+   "total": 2,
+   "rendered": 2,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/asia/south-korea/*": {
+   "total": 2,
+   "rendered": 2,
+   "type": "pattern"
+  },
+  "/en-IN/where-we-fly/partner-airlines/*": {
+   "total": 2,
+   "rendered": 2,
+   "type": "pattern"
+  },
+  "/en-IN/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/africa/nigeria/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/africa/nigeria/lagos/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/africa/south-africa/cape-town/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/africa/south-africa/johannesburg/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/asia/china/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/asia/india/delhi/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/asia/india/mumbai/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/asia/maldives/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/caribbean/antigua/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/caribbean/barbados/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/caribbean/grenada/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/caribbean/jamaica/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/caribbean/mexico/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/caribbean/mexico/cancun/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/caribbean/saint-vincent-and-the-grenadines/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/europe/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/europe/uk/edinburgh/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/europe/uk/london/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/europe/uk/manchester/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/middle-east/dubai/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/middle-east/israel/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/middle-east/saudi-arabia/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/canada/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/canada/toronto/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/mexico/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/mexico/cancun/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/atlanta/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/boston/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/las-vegas/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/los-angeles/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/miami/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/new-york/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/orlando/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/san-francisco/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/seattle/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/tampa/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/where-we-fly/north-america/usa/washington-dc/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  }
+ },
+ "groups": {
+  "/en-IN/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly"
+  ],
+  "/en-IN/where-we-fly/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/africa",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/europe",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/partner-airlines"
+  ],
+  "/en-IN/where-we-fly/africa/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa"
+  ],
+  "/en-IN/where-we-fly/africa/nigeria/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria/lagos"
+  ],
+  "/en-IN/where-we-fly/africa/nigeria/lagos/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria/lagos/lagos-airport-guide"
+  ],
+  "/en-IN/where-we-fly/africa/south-africa/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/cape-town",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/johannesburg"
+  ],
+  "/en-IN/where-we-fly/africa/south-africa/cape-town/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/cape-town/cape-town-airport-guide"
+  ],
+  "/en-IN/where-we-fly/africa/south-africa/johannesburg/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/johannesburg/johannesburg-airport-guide"
+  ],
+  "/en-IN/where-we-fly/asia/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/china",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/maldives",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/pakistan",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/south-korea",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/thailand"
+  ],
+  "/en-IN/where-we-fly/asia/china/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/china/shanghai"
+  ],
+  "/en-IN/where-we-fly/asia/india/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/bengaluru",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/delhi",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/mumbai",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/rest-of-india",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/student-offer"
+  ],
+  "/en-IN/where-we-fly/asia/india/bengaluru/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/bengaluru/bangalore-airport-guide",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/bengaluru/bengaluru-airport-guide"
+  ],
+  "/en-IN/where-we-fly/asia/india/delhi/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/delhi/delhi-airport-guide"
+  ],
+  "/en-IN/where-we-fly/asia/india/mumbai/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/mumbai/mumbai-airport-guide"
+  ],
+  "/en-IN/where-we-fly/asia/maldives/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/maldives/maldives-airport-guide"
+  ],
+  "/en-IN/where-we-fly/asia/pakistan/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/pakistan/islamabad",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/pakistan/lahore"
+  ],
+  "/en-IN/where-we-fly/asia/south-korea/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/south-korea/events-in-south-korea",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/asia/south-korea/seoul-airport-guide"
+  ],
+  "/en-IN/where-we-fly/caribbean/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/antigua",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/bahamas",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/barbados",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/grenada",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/island-hopping",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/jamaica",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/mexico",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/saint-vincent-and-the-grenadines",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/st-lucia",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/turks-and-caicos"
+  ],
+  "/en-IN/where-we-fly/caribbean/antigua/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/antigua/Antigua-airport-guide"
+  ],
+  "/en-IN/where-we-fly/caribbean/barbados/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/barbados/barbados-airport-guide"
+  ],
+  "/en-IN/where-we-fly/caribbean/grenada/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/grenada/grenada-airport-guide"
+  ],
+  "/en-IN/where-we-fly/caribbean/jamaica/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/jamaica/jamaica-airport-guide"
+  ],
+  "/en-IN/where-we-fly/caribbean/mexico/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/mexico/cancun"
+  ],
+  "/en-IN/where-we-fly/caribbean/mexico/cancun/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/mexico/cancun/cancun-airport-guide"
+  ],
+  "/en-IN/where-we-fly/caribbean/saint-vincent-and-the-grenadines/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/saint-vincent-and-the-grenadines/saint-vincent-and-the-grenadines-airport-guide"
+  ],
+  "/en-IN/where-we-fly/europe/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk"
+  ],
+  "/en-IN/where-we-fly/europe/uk/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/edinburgh",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/events-in-the-uk",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/london",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/manchester"
+  ],
+  "/en-IN/where-we-fly/europe/uk/edinburgh/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/edinburgh/edinburgh-airport-guide"
+  ],
+  "/en-IN/where-we-fly/europe/uk/london/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/london/london-heathrow-airport-guide"
+  ],
+  "/en-IN/where-we-fly/europe/uk/manchester/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/manchester/manchester-airport-guide"
+  ],
+  "/en-IN/where-we-fly/middle-east/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/dubai",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/israel",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/saudi-arabia"
+  ],
+  "/en-IN/where-we-fly/middle-east/dubai/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/dubai/dubai-airport-guide"
+  ],
+  "/en-IN/where-we-fly/middle-east/israel/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/israel/tel-aviv"
+  ],
+  "/en-IN/where-we-fly/middle-east/saudi-arabia/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/saudi-arabia/riyadh-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/canada",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/mexico",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa"
+  ],
+  "/en-IN/where-we-fly/north-america/canada/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/canada/toronto"
+  ],
+  "/en-IN/where-we-fly/north-america/canada/toronto/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/canada/toronto/toronto-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/mexico/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/mexico/cancun"
+  ],
+  "/en-IN/where-we-fly/north-america/mexico/cancun/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/mexico/cancun/redirect-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/atlanta",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/austin",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/boston",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/las-vegas",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/los-angeles",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/miami",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/new-york",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/orlando",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/san-francisco",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/seattle",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/tampa",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/washington-dc"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/atlanta/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/atlanta/atlanta-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/boston/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/boston/boston-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/california/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/a-brits-guide-to-los-angeles",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/accommodation-option-in-wine-country",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/beach-guide-find-your-perfect-spot",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/best-photo-spots-in-la",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/coastal-road-trip",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/discovering-the-deserts",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/emily-johnston-food-and-fashion-in-socal",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/exploring-la-diversity-a-cultural-tapestry",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/family-friendly-yosemite-activities-for-kids-and-parents",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/family-play-in-la",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/first-timers-guide-to-san-francisco",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/hand-luggage-only-pride-and-pinot-la",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/hidden-gems",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/hollywood-glamour-where-stars-kick-back",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/how-to-celebrate-pride-in-la",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/how-to-enjoy-los-angeles-on-a-budget",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/la-a-foodies-guide-to-the-best-eats",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/navigating-la-nightlife",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/off-the-beaten-path",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/outdoor-adventures-in-la",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/palm-springs-a-retro-desert-oasis",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/perfect-5-day-itinerary",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/road-trip-play-lists",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/savannah-sachdev-los-angeles-itinerary",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/seasonal-san-francisco",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/shopping-stops",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/top-10-must-visit-attractions-los-angeles",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/ultimate-los-angeles-shopping-guide",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/virgin-crews-top-tips",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/where-to-watch-sport-in-la"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/las-vegas/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/las-vegas/las-vegas-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/los-angeles/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/los-angeles/los-angeles-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/miami/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/miami/miami-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/new-york/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/new-york/new-york-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/orlando/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/orlando/orlando-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/san-francisco/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/san-francisco/san-francisco-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/seattle/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/seattle/Seattle-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/tampa/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/tampa/tampa-airport-guide"
+  ],
+  "/en-IN/where-we-fly/north-america/usa/washington-dc/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/washington-dc/washington-dc-airport-guide"
+  ],
+  "/en-IN/where-we-fly/partner-airlines/*": [
+   "https://www.virginatlantic.com/en-IN/where-we-fly/partner-airlines/easyjet",
+   "https://www.virginatlantic.com/en-IN/where-we-fly/partner-airlines/westjet"
+  ]
+ }
+}

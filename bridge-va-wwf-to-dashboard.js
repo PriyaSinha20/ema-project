@@ -35,26 +35,37 @@ function urlFromShot(rel) {
   return slugToUrl[m[1]] || '';
 }
 
-// ---- BLOCKS: keep only variants that appear on a where-we-fly page ----
+// ---- BLOCKS: variants present on where-we-fly pages ----
+// Include (a) any variant with a where-we-fly screenshot, AND (b) site-wide/global
+// blocks (header, footer, hero, breadcrumbs) that appear on every where-we-fly page
+// even if their representative screenshot was captured elsewhere.
+const SITEWIDE = new Set(['header', 'footer', 'hero', 'breadcrumbs']);
 const variants = [];
 let copied = 0;
 for (const [key, v] of Object.entries(excat)) {
-  const wwfShot = (v.screenshots || []).find((s) => s.includes('where-we-fly'));
-  if (!wwfShot) continue; // section-scoped: only where-we-fly blocks
+  const wwfShots = (v.screenshots || []).filter((s) => s.includes('where-we-fly'));
+  const isSitewide = SITEWIDE.has(v.baseBlock);
+  if (!wwfShots.length && !isSitewide) continue; // section-scoped
   const base = BASE_MAP[v.baseBlock] || 'unknown';
+  // prefer a where-we-fly screenshot; else fall back to the variant's first screenshot
+  const chosenShot = wwfShots[0] || (v.screenshots || [])[0] || '';
   let repFile = '', repUrl = '';
-  const src = path.join(VA, wwfShot);
-  if (fs.existsSync(src)) {
-    repFile = `va-${v.blockVariantId.replace(/[^a-z0-9]+/gi, '-')}.jpg`;
-    try { fs.copyFileSync(src, path.join(blocksDir, repFile)); copied++; repUrl = urlFromShot(wwfShot); } catch (e) { repFile = ''; }
+  if (chosenShot) {
+    const src = path.join(VA, chosenShot);
+    if (fs.existsSync(src)) {
+      repFile = `va-${v.blockVariantId.replace(/[^a-z0-9]+/gi, '-')}.jpg`;
+      try { fs.copyFileSync(src, path.join(blocksDir, repFile)); copied++; repUrl = urlFromShot(chosenShot); } catch (e) { repFile = ''; }
+    }
   }
-  // count how many where-we-fly pages this variant appears on
-  const wwfPages = (v.screenshots || []).filter((s) => s.includes('where-we-fly')).length || 1;
+  // for site-wide blocks with no where-we-fly shot, source URL = the section root
+  if (!repUrl && isSitewide) repUrl = 'https://www.virginatlantic.com/en-IN/where-we-fly';
+  const wwfPages = wwfShots.length || (isSitewide ? 132 : 1);
+  const sampleShots = (wwfShots.length ? wwfShots : (v.screenshots || [])).slice(0, 6);
   variants.push({
     base, key: `${base}::${v.blockVariantId}`,
     instances: wwfPages, pagesFound: wwfPages,
     repFile, repUrl,
-    samples: (v.screenshots || []).filter((s) => s.includes('where-we-fly')).slice(0, 6).map((s) => ({ url: urlFromShot(s), file: repFile })),
+    samples: sampleShots.map((s) => ({ url: urlFromShot(s) || repUrl, file: repFile })),
     topLabel: v.description || v.blockVariantId,
   });
 }

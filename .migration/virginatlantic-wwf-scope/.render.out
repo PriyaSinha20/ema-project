@@ -1,0 +1,6 @@
+Render set: 84, already done: 0, todo: 84
+  [w1] 20/84 done (ok=15 fail=2) last=https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/student-o
+  [w0] 40/84 done (ok=33 fail=4) last=https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/turks-and-
+  [w1] 60/84 done (ok=53 fail=7) last=https://www.virginatlantic.com/en-IN/where-we-fly/north-america/mexico
+  [w2] 80/84 done (ok=72 fail=8) last=https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/wa
+DONE rendering. ok=75 fail=9 total_processed=84
