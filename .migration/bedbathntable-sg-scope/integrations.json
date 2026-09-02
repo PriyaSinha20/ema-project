@@ -1,0 +1,139 @@
+{
+ "integrations": [
+  {
+   "name": "Adobe Commerce (Magento 2)",
+   "hits": 6756,
+   "type": "Platform / backend",
+   "complexity": "Complex",
+   "purpose": "E-commerce platform (catalog, cart, checkout, customer accounts)"
+  },
+  {
+   "name": "Magento PageBuilder",
+   "hits": 6756,
+   "type": "CMS / content",
+   "complexity": "Medium",
+   "purpose": "Drag-and-drop content authoring (home, category, CMS, blog)"
+  },
+  {
+   "name": "Fastly CDN",
+   "hits": 6756,
+   "type": "Platform / caching",
+   "complexity": "Medium",
+   "purpose": "Edge caching / CDN in front of Magento"
+  },
+  {
+   "name": "Google Tag Manager",
+   "hits": 624,
+   "type": "Analytics / tags",
+   "complexity": "Medium",
+   "purpose": "Tag management / analytics container"
+  },
+  {
+   "name": "Google Analytics",
+   "hits": 236,
+   "type": "Analytics",
+   "complexity": "Medium",
+   "purpose": "Web analytics"
+  },
+  {
+   "name": "Afterpay",
+   "hits": 6756,
+   "type": "Payment (BNPL)",
+   "complexity": "Complex",
+   "purpose": "Buy-now-pay-later at PDP, cart & checkout (mini-cart integration)"
+  },
+  {
+   "name": "PayPal",
+   "hits": 6756,
+   "type": "Payment gateway",
+   "complexity": "Complex",
+   "purpose": "Checkout payment / billing agreements"
+  },
+  {
+   "name": "Google reCAPTCHA",
+   "hits": 6756,
+   "type": "Security / forms",
+   "complexity": "Simple",
+   "purpose": "Bot protection on login / registration / forms"
+  },
+  {
+   "name": "Dotdigital",
+   "hits": 6756,
+   "type": "Email / marketing automation",
+   "complexity": "Medium",
+   "purpose": "Newsletter & email capture"
+  },
+  {
+   "name": "Google Maps/static",
+   "hits": 139,
+   "type": "API / embed",
+   "complexity": "Medium",
+   "purpose": "Store locator maps & static assets"
+  },
+  {
+   "name": "CDN/jQuery libs",
+   "hits": 432,
+   "type": "Front-end libs",
+   "complexity": "Simple",
+   "purpose": "Front-end libraries via CDN"
+  },
+  {
+   "name": "Vimeo",
+   "hits": 335,
+   "type": "Embed",
+   "complexity": "Simple",
+   "purpose": "Embedded video player"
+  },
+  {
+   "name": "Facebook Pixel/SDK",
+   "hits": 9,
+   "type": "Pixel / social",
+   "complexity": "Simple",
+   "purpose": "Meta advertising pixel & social"
+  },
+  {
+   "name": "Adobe Edge Delivery RUM",
+   "hits": 6756,
+   "type": "Measurement",
+   "complexity": "Simple",
+   "purpose": "Real-user monitoring (rum.hlx.page) — EDS measurement pilot"
+  },
+  {
+   "name": "Social embeds (Instagram, Pinterest, TikTok)",
+   "hits": 6756,
+   "type": "Embed / link",
+   "complexity": "Simple",
+   "purpose": "Social profile links & embeds (footer)"
+  },
+  {
+   "name": "Wishlist / customer sections",
+   "hits": 6756,
+   "type": "Commerce feature",
+   "complexity": "Medium",
+   "purpose": "Saved items, account sections, mini-cart"
+  }
+ ],
+ "globals": [
+  {
+   "global": "dataLayer",
+   "count": 404
+  },
+  {
+   "global": "Vimeo",
+   "count": 335
+  },
+  {
+   "global": "google_tag_manager",
+   "count": 254
+  },
+  {
+   "global": "ga",
+   "count": 229
+  },
+  {
+   "global": "fbq",
+   "count": 7
+  }
+ ],
+ "iframeHosts": []
+}

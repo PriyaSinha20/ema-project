@@ -1,0 +1,50 @@
+{
+ "captured": "2026-08-31T15:05:29.790Z",
+ "shots": [
+  {
+   "idx": 0,
+   "name": "marketing-landing",
+   "signature": "marketing-landing",
+   "estPop": 118,
+   "url": "https://www.virginatlantic.com/en-IN/where-we-fly",
+   "file": "t00_marketing-landing.jpg",
+   "captured": true
+  },
+  {
+   "idx": 1,
+   "name": "client-rendered-content",
+   "signature": "client-rendered-content",
+   "estPop": 2,
+   "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/emily-johnston-food-and-fashion-in-socal",
+   "file": "t01_client-rendered-content.jpg",
+   "captured": true
+  },
+  {
+   "idx": 2,
+   "name": "accordion-content",
+   "signature": "accordion-content",
+   "estPop": 1,
+   "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/student-offer",
+   "file": "t02_accordion-content.jpg",
+   "captured": true
+  },
+  {
+   "idx": 3,
+   "name": "destination-detail",
+   "signature": "destination-detail",
+   "estPop": 1,
+   "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+   "file": "t03_destination-detail.jpg",
+   "captured": true
+  },
+  {
+   "idx": 4,
+   "name": "itinerary-guide",
+   "signature": "itinerary-guide",
+   "estPop": 1,
+   "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/savannah-sachdev-los-angeles-itinerary",
+   "file": "t04_itinerary-guide.jpg",
+   "captured": true
+  }
+ ]
+}
