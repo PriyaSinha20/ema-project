@@ -1,0 +1,32 @@
+{
+ "captured": "2026-09-02T10:41:36.167Z",
+ "shots": [
+  {
+   "idx": 0,
+   "name": "marketing-landing",
+   "signature": "marketing-landing",
+   "estPop": 61,
+   "url": "https://www.virginatlantic.com/en-IN/flying-club",
+   "file": "t00_marketing-landing.jpg",
+   "captured": true
+  },
+  {
+   "idx": 1,
+   "name": "accordion-content",
+   "signature": "accordion-content",
+   "estPop": 4,
+   "url": "https://www.virginatlantic.com/en-IN/flying-club/earn-points/american-express-uk",
+   "file": "t01_accordion-content.jpg",
+   "captured": true
+  },
+  {
+   "idx": 2,
+   "name": "promo-feature",
+   "signature": "promo-feature",
+   "estPop": 1,
+   "url": "https://www.virginatlantic.com/en-IN/flying-club/spend-points/reward-seats",
+   "file": "t02_promo-feature.jpg",
+   "captured": true
+  }
+ ]
+}
