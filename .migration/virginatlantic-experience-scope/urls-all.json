@@ -1,0 +1,235 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-09-02T10:05:51.248Z",
+    "totalUrls": 53,
+    "totalDocuments": 0,
+    "method": "crawl",
+    "sitemapURL": null,
+    "robotsTxtFound": false,
+    "robotsTxtRulesApplied": false,
+    "limitations": "",
+    "confidence": "88%",
+    "statusBreakdown": {
+      "success": 53,
+      "redirect": 0,
+      "clientError": 0,
+      "serverError": 0,
+      "errorTimeout": 0
+    },
+    "urls": [
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/about-us",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/economy",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/economy/economy-dining",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/flying-with-children",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/food-and-drink",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/food-and-drink/dietary-requirements",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/food-and-drink/food-allergies",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/food-and-drink/kids-meals",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/food-and-drink/pre-order-pre-select",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/food-and-drink/sustainablity-onboard",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/football-world-cup-2026",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330neo",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a350-1000",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/b787",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/starlink",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/meet-our-fleet",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/meet-our-fleet/airbus-a330-300",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/meet-our-fleet/airbus-a330neo",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/meet-our-fleet/airbus-a350",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/meet-our-fleet/boeing-787",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/our-crew",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/premium",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/premium/premium-dining",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/seating",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/see-the-world-differently",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/airport-guides",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/airport-lounges",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/airportr-luggage-collection",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/chauffeur-driven-transfers",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/kolet",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/meet-and-greet",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/optional-service-and-travel-fees",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/seating-the-small-print",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/travel-insurance",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/your-bid-terms-and-conditions",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/clubhouse-airport-lounges",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/clubhouse-airport-lounges/Johannesburg-clubhouse",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/clubhouse-airport-lounges/london-heathrow-clubhouse",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/clubhouse-airport-lounges/london-heathrow-clubhouse/revivals-lounge-at-london-heathrow",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/clubhouse-airport-lounges/london-heathrow-clubhouse/upper-class-wing-at-london-heathrow",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/clubhouse-airport-lounges/los-angeles-clubhouse",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/clubhouse-airport-lounges/new-york-jfk-clubhouse",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/clubhouse-airport-lounges/san-francisco-clubhouse",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/clubhouse-airport-lounges/washington-dc-clubhouse",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/upper-class-dining",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/usa-football-tournament-2026",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/experience/world-cup-2026",
+        "status": 200
+      }
+    ],
+    "documents": []
+  }
+}

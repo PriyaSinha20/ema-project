@@ -1,0 +1,41 @@
+{
+ "captured": "2026-08-31T14:32:46.058Z",
+ "shots": [
+  {
+   "idx": 0,
+   "name": "commerce-standard",
+   "signature": "commerce-standard",
+   "estPop": 5696,
+   "url": "https://www.bedbathntable.com.sg/",
+   "file": "t00_commerce-standard.jpg",
+   "captured": true
+  },
+  {
+   "idx": 1,
+   "name": "content-editorial",
+   "signature": "content-editorial",
+   "estPop": 662,
+   "url": "https://www.bedbathntable.com.sg/blog/authors",
+   "file": "t01_content-editorial.jpg",
+   "captured": true
+  },
+  {
+   "idx": 2,
+   "name": "blog-article",
+   "signature": "blog-article",
+   "estPop": 265,
+   "url": "https://www.bedbathntable.com.sg/blog/behind-the-scenes",
+   "file": "t02_blog-article.jpg",
+   "captured": true
+  },
+  {
+   "idx": 3,
+   "name": "product-detail",
+   "signature": "product-detail",
+   "estPop": 132,
+   "url": "https://www.bedbathntable.com.sg/hana-breakfast-bowl-white-22497601",
+   "file": "t03_product-detail.jpg",
+   "captured": true
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+Rendered pages clustered: 410
+Distinct layout signatures: 1
+
+=== Layout templates (est. full-population pages) ===
+ 6735 pp  rendered=410   minimal-page     (empty)                                        |  bed(92) sale(35) bath(34)
+
+=== Third-party integrations detected ===
+  624 Google Tag Manager
+  432 CDN/jQuery libs
+  236 Google Analytics
+  139 Google Maps/static
+    9 Facebook Pixel/SDK
+    6 Vimeo
+
+=== Global objects ===
+ 404 dataLayer
+ 335 Vimeo
+ 254 google_tag_manager
+ 229 ga
+   7 fbq

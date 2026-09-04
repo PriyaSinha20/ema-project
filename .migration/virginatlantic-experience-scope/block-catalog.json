@@ -1,0 +1,399 @@
+{
+ "captured": "2026-09-02T10:13:08.644Z",
+ "totalInstances": 430,
+ "totalVariants": 16,
+ "baseSummary": [
+  {
+   "base": "breadcrumbs",
+   "variants": 5,
+   "instances": 163
+  },
+  {
+   "base": "hero",
+   "variants": 4,
+   "instances": 110
+  },
+  {
+   "base": "nav",
+   "variants": 2,
+   "instances": 106
+  },
+  {
+   "base": "cards",
+   "variants": 3,
+   "instances": 46
+  },
+  {
+   "base": "unknown",
+   "variants": 1,
+   "instances": 3
+  },
+  {
+   "base": "media",
+   "variants": 1,
+   "instances": 2
+  }
+ ],
+ "variants": [
+  {
+   "base": "breadcrumbs",
+   "key": "breadcrumbs::breadcrumbs-minimal-dark",
+   "instances": 53,
+   "pagesFound": 53,
+   "repFile": "va-breadcrumbs-minimal-dark.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/corporate/affiliates-to-india",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/corporate/affiliates-to-india",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/air-carrier-access-act",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/canadian-tariffs-and-notices",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/contingency-plan-for-lengthy-tarmac-delays",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/dangerous-or-restricted-items",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/marks-and-spencer-cashback-offer-terms-and-conditions",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "2 CTAs + list"
+  },
+  {
+   "base": "breadcrumbs",
+   "key": "breadcrumbs::breadcrumbs-minimal-light-withimg",
+   "instances": 53,
+   "pagesFound": 53,
+   "repFile": "va-breadcrumbs-minimal-light-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/corporate/business-for-good/virgin-atlantic-foundation",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/corporate/business-for-good/virgin-atlantic-foundation",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/corporate/corporate-bookings",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-11",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-18",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-22",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-25",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 3 CTAs + 2 images + list"
+  },
+  {
+   "base": "breadcrumbs",
+   "key": "breadcrumbs::breadcrumbs-minimal-light-withimg-1",
+   "instances": 53,
+   "pagesFound": 53,
+   "repFile": "va-breadcrumbs-minimal-light-withimg-1.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/policies/virgin-atlantic-account-terms-and-conditions",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/virgin-atlantic-account-terms-and-conditions",
+     "file": "va-breadcrumbs-minimal-light-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 2 CTAs + 2 images + list"
+  },
+  {
+   "base": "breadcrumbs",
+   "key": "breadcrumbs::breadcrumbs-minimal-dark-2",
+   "instances": 3,
+   "pagesFound": 3,
+   "repFile": "va-breadcrumbs-minimal-dark-2.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+     "file": "va-breadcrumbs-minimal-dark-2.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330neo",
+     "file": "va-breadcrumbs-minimal-dark-2.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/b787",
+     "file": "va-breadcrumbs-minimal-dark-2.jpg"
+    }
+   ],
+   "topLabel": "4 CTAs + list"
+  },
+  {
+   "base": "breadcrumbs",
+   "key": "breadcrumbs::breadcrumbs-minimal-dark-1",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "va-breadcrumbs-minimal-dark-1.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/seating-the-small-print",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/seating-the-small-print",
+     "file": "va-breadcrumbs-minimal-dark-1.jpg"
+    }
+   ],
+   "topLabel": "3 CTAs + list"
+  },
+  {
+   "base": "cards",
+   "key": "cards::cards-minimal-dark-withimg",
+   "instances": 39,
+   "pagesFound": 39,
+   "repFile": "va-cards-minimal-dark-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/corporate/business-for-good/planet/experience",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/corporate/business-for-good/planet/experience",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/about-us",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/economy/economy-dining",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/flying-with-children",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/food-and-drink",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 1 CTAs + image"
+  },
+  {
+   "base": "cards",
+   "key": "cards::cards-minimal-dark-withimg-2",
+   "instances": 6,
+   "pagesFound": 6,
+   "repFile": "va-cards-minimal-dark-withimg-2.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience/economy",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/economy",
+     "file": "va-cards-minimal-dark-withimg-2.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/premium/premium-dining",
+     "file": "va-cards-minimal-dark-withimg-2.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/travel-insurance",
+     "file": "va-cards-minimal-dark-withimg-2.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/upper-class",
+     "file": "va-cards-minimal-dark-withimg-2.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/clubhouse-airport-lounges/london-heathrow-clubhouse/revivals-lounge-at-london-heathrow",
+     "file": "va-cards-minimal-dark-withimg-2.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/upper-class/upper-class-dining",
+     "file": "va-cards-minimal-dark-withimg-2.jpg"
+    }
+   ],
+   "topLabel": "heading + text + image + list"
+  },
+  {
+   "base": "cards",
+   "key": "cards::cards-minimal-dark-withimg-1",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "va-cards-minimal-dark-withimg-1.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/airport-guides",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/airport-guides",
+     "file": "va-cards-minimal-dark-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "heading + image"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-light",
+   "instances": 53,
+   "pagesFound": 53,
+   "repFile": "va-hero-minimal-light.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/manage-booking",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/manage-booking",
+     "file": "va-hero-minimal-light.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 3 CTAs + list"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-light-withimg",
+   "instances": 53,
+   "pagesFound": 53,
+   "repFile": "va-hero-minimal-light-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/travel-news/changes-to-uk-entry-requirements",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/travel-news/changes-to-uk-entry-requirements",
+     "file": "va-hero-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/travel-news/esta-us-visa-waiver",
+     "file": "va-hero-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/travel-news/new-digital-landing-cards-when-travelling-to-india",
+     "file": "va-hero-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/travel-news/new-european-entry-exit-system",
+     "file": "va-hero-minimal-light-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 1 CTAs + 2 images"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg-1",
+   "instances": 3,
+   "pagesFound": 3,
+   "repFile": "va-hero-minimal-dark-withimg-1.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+     "file": "va-hero-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330neo",
+     "file": "va-hero-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/b787",
+     "file": "va-hero-minimal-dark-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "heading + 2 images"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "va-hero-minimal-dark-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/seating-the-small-print",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/seating-the-small-print",
+     "file": "va-hero-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 2 images"
+  },
+  {
+   "base": "media",
+   "key": "media::carousel-minimal-dark",
+   "instances": 2,
+   "pagesFound": 2,
+   "repFile": "va-carousel-minimal-dark.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330neo",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330neo",
+     "file": "va-carousel-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/b787",
+     "file": "va-carousel-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 2 CTAs + list"
+  },
+  {
+   "base": "nav",
+   "key": "nav::footer-global",
+   "instances": 53,
+   "pagesFound": 53,
+   "repFile": "va-footer-global.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience",
+     "file": "va-footer-global.jpg"
+    }
+   ],
+   "topLabel": "Block variant: footer"
+  },
+  {
+   "base": "nav",
+   "key": "nav::header-global",
+   "instances": 53,
+   "pagesFound": 53,
+   "repFile": "va-header-global.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience",
+     "file": "va-header-global.jpg"
+    }
+   ],
+   "topLabel": "Block variant: header"
+  },
+  {
+   "base": "unknown",
+   "key": "unknown::1 image block-minimal-dark-withimg",
+   "instances": 3,
+   "pagesFound": 3,
+   "repFile": "va-1-image-block-minimal-dark-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+     "file": "va-1-image-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330neo",
+     "file": "va-1-image-block-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/b787",
+     "file": "va-1-image-block-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "image"
+  }
+ ]
+}

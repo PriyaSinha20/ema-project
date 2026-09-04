@@ -1,0 +1,50 @@
+{
+ "captured": "2026-09-02T10:13:09.244Z",
+ "shots": [
+  {
+   "idx": 0,
+   "name": "marketing-landing",
+   "signature": "marketing-landing",
+   "estPop": 44,
+   "url": "https://www.virginatlantic.com/en-IN/experience",
+   "file": "t00_marketing-landing.jpg",
+   "captured": true
+  },
+  {
+   "idx": 1,
+   "name": "client-rendered-content",
+   "signature": "client-rendered-content",
+   "estPop": 1,
+   "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/b787",
+   "file": "t01_client-rendered-content.jpg",
+   "captured": true
+  },
+  {
+   "idx": 2,
+   "name": "rich-text-article",
+   "signature": "rich-text-article",
+   "estPop": 2,
+   "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/seating-the-small-print",
+   "file": "t02_rich-text-article.jpg",
+   "captured": true
+  },
+  {
+   "idx": 3,
+   "name": "accordion-content",
+   "signature": "accordion-content",
+   "estPop": 3,
+   "url": "https://www.virginatlantic.com/en-IN/experience/food-and-drink/food-allergies",
+   "file": "t03_accordion-content.jpg",
+   "captured": true
+  },
+  {
+   "idx": 4,
+   "name": "promo-feature",
+   "signature": "promo-feature",
+   "estPop": 3,
+   "url": "https://www.virginatlantic.com/en-IN/experience/football-world-cup-2026",
+   "file": "t04_promo-feature.jpg",
+   "captured": true
+  }
+ ]
+}

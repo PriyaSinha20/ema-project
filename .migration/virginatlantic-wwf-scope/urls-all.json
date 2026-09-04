@@ -1,0 +1,551 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-08-31T14:50:13.454Z",
+    "totalUrls": 132,
+    "totalDocuments": 0,
+    "method": "crawl",
+    "sitemapURL": null,
+    "robotsTxtFound": false,
+    "robotsTxtRulesApplied": false,
+    "limitations": "",
+    "confidence": "88%",
+    "statusBreakdown": {
+      "success": 132,
+      "redirect": 0,
+      "clientError": 0,
+      "serverError": 0,
+      "errorTimeout": 0
+    },
+    "urls": [
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria/lagos",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/nigeria/lagos/lagos-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/cape-town",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/cape-town/cape-town-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/johannesburg",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/africa/south-africa/johannesburg/johannesburg-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/china",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/china/shanghai",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/bengaluru",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/bengaluru/bangalore-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/bengaluru/bengaluru-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/delhi",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/delhi/delhi-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/mumbai",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/mumbai/mumbai-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/rest-of-india",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/india/student-offer",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/maldives",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/maldives/maldives-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/pakistan",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/pakistan/islamabad",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/pakistan/lahore",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/south-korea",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/south-korea/events-in-south-korea",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/south-korea/seoul-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/asia/thailand",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/antigua",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/antigua/Antigua-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/bahamas",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/barbados",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/barbados/barbados-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/grenada",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/grenada/grenada-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/island-hopping",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/jamaica",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/jamaica/jamaica-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/mexico",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/mexico/cancun",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/mexico/cancun/cancun-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/saint-vincent-and-the-grenadines",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/saint-vincent-and-the-grenadines/saint-vincent-and-the-grenadines-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/st-lucia",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/tobago",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/caribbean/turks-and-caicos",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/europe",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/edinburgh",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/edinburgh/edinburgh-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/events-in-the-uk",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/london",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/london/london-heathrow-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/manchester",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/europe/uk/manchester/manchester-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/dubai",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/dubai/dubai-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/israel",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/israel/tel-aviv",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/saudi-arabia",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/middle-east/saudi-arabia/riyadh-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/canada",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/canada/toronto",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/canada/toronto/toronto-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/mexico",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/mexico/cancun",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/mexico/cancun/redirect-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/atlanta",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/atlanta/atlanta-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/austin",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/boston",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/boston/boston-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/a-brits-guide-to-los-angeles",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/accommodation-option-in-wine-country",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/beach-guide-find-your-perfect-spot",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/best-photo-spots-in-la",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/coastal-road-trip",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/discovering-the-deserts",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/emily-johnston-food-and-fashion-in-socal",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/exploring-la-diversity-a-cultural-tapestry",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/family-friendly-yosemite-activities-for-kids-and-parents",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/family-play-in-la",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/first-timers-guide-to-san-francisco",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/hand-luggage-only-pride-and-pinot-la",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/hidden-gems",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/hollywood-glamour-where-stars-kick-back",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/how-to-celebrate-pride-in-la",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/how-to-enjoy-los-angeles-on-a-budget",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/la-a-foodies-guide-to-the-best-eats",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/navigating-la-nightlife",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/off-the-beaten-path",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/outdoor-adventures-in-la",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/palm-springs-a-retro-desert-oasis",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/perfect-5-day-itinerary",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/road-trip-play-lists",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/savannah-sachdev-los-angeles-itinerary",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/seasonal-san-francisco",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/shopping-stops",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/top-10-must-visit-attractions-los-angeles",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/ultimate-los-angeles-shopping-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/virgin-crews-top-tips",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/california/where-to-watch-sport-in-la",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/las-vegas",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/las-vegas/las-vegas-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/los-angeles",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/los-angeles/los-angeles-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/miami",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/miami/miami-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/new-york",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/new-york/new-york-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/orlando",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/orlando/orlando-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/san-francisco",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/san-francisco/san-francisco-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/seattle",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/seattle/Seattle-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/tampa",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/tampa/tampa-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/washington-dc",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/north-america/usa/washington-dc/washington-dc-airport-guide",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/partner-airlines",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/partner-airlines/easyjet",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/where-we-fly/partner-airlines/westjet",
+        "status": 200
+      }
+    ],
+    "documents": []
+  }
+}

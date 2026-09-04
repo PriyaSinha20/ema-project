@@ -1,0 +1,111 @@
+{
+ "captured": "2026-08-31T14:32:46.039Z",
+ "renderedPages": 51,
+ "distinctSignatures": 4,
+ "templates": [
+  {
+   "signature": "commerce-standard",
+   "family": "commerce-standard",
+   "name": "commerce-standard",
+   "rendered": 43,
+   "estPop": 5696,
+   "urls": [
+    "https://www.bedbathntable.com.sg/",
+    "https://www.bedbathntable.com.sg/apparel",
+    "https://www.bedbathntable.com.sg/bamboo-coaster-set-6-sage-19168214",
+    "https://www.bedbathntable.com.sg/bath",
+    "https://www.bedbathntable.com.sg/bed",
+    "https://www.bedbathntable.com.sg/blog/decorate-your-pop-up-tree",
+    "https://www.bedbathntable.com.sg/blog/decorating-for-easter",
+    "https://www.bedbathntable.com.sg/blog/mulberry-silk",
+    "https://www.bedbathntable.com.sg/blog/traditional-christmas-table",
+    "https://www.bedbathntable.com.sg/brands",
+    "https://www.bedbathntable.com.sg/brands/cotton-house",
+    "https://www.bedbathntable.com.sg/brands/harlequin",
+    "https://www.bedbathntable.com.sg/christmas/christmas-table/table-linen",
+    "https://www.bedbathntable.com.sg/christmas/lights",
+    "https://www.bedbathntable.com.sg/christmas/trees-decorations",
+    "https://www.bedbathntable.com.sg/christmas/trees-decorations/christmas-trees",
+    "https://www.bedbathntable.com.sg/christmas/trees-decorations/tree-decorations",
+    "https://www.bedbathntable.com.sg/christmas/trees-decorations/tree-toppers",
+    "https://www.bedbathntable.com.sg/drinking-wine-tea-towel-grey-red-21686101",
+    "https://www.bedbathntable.com.sg/fairley-ribbed-coupe-395ml-green-22810601"
+   ],
+   "sampleUrl": "https://www.bedbathntable.com.sg/",
+   "shot": "t00_commerce-standard.jpg",
+   "complexity": "Complex",
+   "description": "Dominant Magento shell — home, category landing, product listing (faceted filters + grid) and product detail (gallery, price, variants, cross-sell). Shared header/search/mega-nav + footer.",
+   "sections": {},
+   "locales": {
+    "root": 43
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "content-editorial",
+   "family": "content-editorial",
+   "name": "content-editorial",
+   "rendered": 5,
+   "estPop": 662,
+   "urls": [
+    "https://www.bedbathntable.com.sg/blog/authors",
+    "https://www.bedbathntable.com.sg/christmas/christmas-table/tea-towels",
+    "https://www.bedbathntable.com.sg/easter",
+    "https://www.bedbathntable.com.sg/milton-charcoal-110102",
+    "https://www.bedbathntable.com.sg/sale/apparel-sale/robes-sale"
+   ],
+   "sampleUrl": "https://www.bedbathntable.com.sg/blog/authors",
+   "shot": "t01_content-editorial.jpg",
+   "complexity": "Medium",
+   "description": "Mixed content/editorial and listing pages (blog index/author, seasonal landing, influencer shop-the-look) sharing the standard shell.",
+   "sections": {},
+   "locales": {
+    "root": 5
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "blog-article",
+   "family": "blog-article",
+   "name": "blog-article",
+   "rendered": 2,
+   "estPop": 265,
+   "urls": [
+    "https://www.bedbathntable.com.sg/blog/behind-the-scenes",
+    "https://www.bedbathntable.com.sg/blog/buying-and-care-guides"
+   ],
+   "sampleUrl": "https://www.bedbathntable.com.sg/blog/behind-the-scenes",
+   "shot": "t02_blog-article.jpg",
+   "complexity": "Medium",
+   "description": "Long-form editorial article: hero, alternating image+text sections, product callouts, share, and related-post teasers.",
+   "sections": {},
+   "locales": {
+    "root": 2
+   },
+   "blockCountMode": {},
+   "topSections": []
+  },
+  {
+   "signature": "product-detail",
+   "family": "product-detail",
+   "name": "product-detail",
+   "rendered": 1,
+   "estPop": 132,
+   "urls": [
+    "https://www.bedbathntable.com.sg/hana-breakfast-bowl-white-22497601"
+   ],
+   "sampleUrl": "https://www.bedbathntable.com.sg/hana-breakfast-bowl-white-22497601",
+   "shot": "t03_product-detail.jpg",
+   "complexity": "Complex",
+   "description": "Product detail page: image gallery with zoom, title/brand, price with strike-through + stock, variant selector, feature icons, cross-sell, size-guide accordion.",
+   "sections": {},
+   "locales": {
+    "root": 1
+   },
+   "blockCountMode": {},
+   "topSections": []
+  }
+ ]
+}

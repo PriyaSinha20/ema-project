@@ -1,0 +1,18 @@
+{
+  "siteUrl": "https://www.virginatlantic.com/en-IN/experience",
+  "siteOrigin": "https://www.virginatlantic.com",
+  "site": "virginatlantic-experience",
+  "scope": "Virgin Atlantic en-IN — Experience section",
+  "eyebrow": "Virgin Atlantic · Experience · Site Analysis",
+  "heroTitle": "Structural analysis of virginatlantic.com/en-IN/experience",
+  "heroSub": "",
+  "brandLine": "Virgin Atlantic — Experience<br>Migration Console",
+  "accountName": "Virgin Atlantic",
+  "locale": "en-IN (single)",
+  "discovery": "XML sitemap (hreflang alternates) — experience pattern",
+  "cjk": false,
+  "catalogFolder": "/backups/PriyaSinha20/ema-project/repo/.migration/virginatlantic-experience-scope",
+  "reportsDir": "/backups/PriyaSinha20/ema-project/repo/reports",
+  "templateHtml": "/backups/PriyaSinha20/ema-project/repo/.claude/skills/site-analysis-dashboard/templates/dashboard-template.html",
+  "outFile": ""
+}
