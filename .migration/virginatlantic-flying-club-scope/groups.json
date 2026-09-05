@@ -1,0 +1,156 @@
+{
+ "captured": "2026-09-02T10:35:22.865Z",
+ "minGroup": 2,
+ "sampleN": 4,
+ "totalLivePages": 66,
+ "totalGroups": 11,
+ "patternGroups": 7,
+ "longTailPages": 4,
+ "groupMeta": {
+  "/en-IN/flying-club/airline-partners/*": {
+   "total": 29,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/flying-club/*": {
+   "total": 14,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/flying-club/earn-points/*": {
+   "total": 6,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/flying-club/virgin-group/*": {
+   "total": 5,
+   "rendered": 4,
+   "type": "pattern"
+  },
+  "/en-IN/flying-club/membership-tiers/*": {
+   "total": 3,
+   "rendered": 3,
+   "type": "pattern"
+  },
+  "/en-IN/flying-club/travel-partners/*": {
+   "total": 3,
+   "rendered": 3,
+   "type": "pattern"
+  },
+  "/en-IN/flying-club/spend-points/reward-seats/*": {
+   "total": 2,
+   "rendered": 2,
+   "type": "pattern"
+  },
+  "/en-IN/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/flying-club/members/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/flying-club/spend-points/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  },
+  "/en-IN/flying-club/virgin-red/*": {
+   "total": 1,
+   "rendered": 1,
+   "type": "long-tail"
+  }
+ },
+ "groups": {
+  "/en-IN/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club"
+  ],
+  "/en-IN/flying-club/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club/a-card-that-takes-you-places",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners",
+   "https://www.virginatlantic.com/en-IN/flying-club/credit-card",
+   "https://www.virginatlantic.com/en-IN/flying-club/earn-points",
+   "https://www.virginatlantic.com/en-IN/flying-club/flying-club-news",
+   "https://www.virginatlantic.com/en-IN/flying-club/high-five",
+   "https://www.virginatlantic.com/en-IN/flying-club/household-accounts",
+   "https://www.virginatlantic.com/en-IN/flying-club/members",
+   "https://www.virginatlantic.com/en-IN/flying-club/membership-tiers",
+   "https://www.virginatlantic.com/en-IN/flying-club/spend-points",
+   "https://www.virginatlantic.com/en-IN/flying-club/status-match",
+   "https://www.virginatlantic.com/en-IN/flying-club/travel-partners",
+   "https://www.virginatlantic.com/en-IN/flying-club/virgin-group",
+   "https://www.virginatlantic.com/en-IN/flying-club/virgin-red"
+  ],
+  "/en-IN/flying-club/airline-partners/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/aerolineas-argentinas",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/aeromexico",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/air-europa",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/air-france",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/air-new-zealand",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/all-nippon-airways",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/china-airlines",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/china-eastern",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/delta",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/delta-air-lines",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/el-al",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/garuda-indonesia",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/hawaiian-airlines",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/indigo",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/ita-airways",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/kenya-airways",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/klm",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/korean-air",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/latam-airlines",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/mea",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/saudia",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/scandinavian-airlines",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/singapore-airlines",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/south-african-airways",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/tarom",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/vietnam-airlines",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/virgin-australia",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/westjet",
+   "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/xiamen-air"
+  ],
+  "/en-IN/flying-club/earn-points/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club/earn-points/american-express-uk",
+   "https://www.virginatlantic.com/en-IN/flying-club/earn-points/bicester-village",
+   "https://www.virginatlantic.com/en-IN/flying-club/earn-points/buy-points",
+   "https://www.virginatlantic.com/en-IN/flying-club/earn-points/earning-calculator",
+   "https://www.virginatlantic.com/en-IN/flying-club/earn-points/points-booster",
+   "https://www.virginatlantic.com/en-IN/flying-club/earn-points/tesco-clubcard"
+  ],
+  "/en-IN/flying-club/members/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club/members/flying-club-news"
+  ],
+  "/en-IN/flying-club/membership-tiers/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club/membership-tiers/gold-benefits",
+   "https://www.virginatlantic.com/en-IN/flying-club/membership-tiers/red-benefits",
+   "https://www.virginatlantic.com/en-IN/flying-club/membership-tiers/silver-benefits"
+  ],
+  "/en-IN/flying-club/spend-points/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club/spend-points/reward-seats"
+  ],
+  "/en-IN/flying-club/spend-points/reward-seats/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club/spend-points/reward-seats/reward-vouchers",
+   "https://www.virginatlantic.com/en-IN/flying-club/spend-points/reward-seats/saver-reward-seats"
+  ],
+  "/en-IN/flying-club/travel-partners/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club/travel-partners/car-rental-partners",
+   "https://www.virginatlantic.com/en-IN/flying-club/travel-partners/hotel-partners",
+   "https://www.virginatlantic.com/en-IN/flying-club/travel-partners/other-travel-partners"
+  ],
+  "/en-IN/flying-club/virgin-group/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club/virgin-group/virgin-experience-days",
+   "https://www.virginatlantic.com/en-IN/flying-club/virgin-group/virgin-gift-card",
+   "https://www.virginatlantic.com/en-IN/flying-club/virgin-group/virgin-hotels",
+   "https://www.virginatlantic.com/en-IN/flying-club/virgin-group/virgin-limited-edition",
+   "https://www.virginatlantic.com/en-IN/flying-club/virgin-group/virgin-wines"
+  ],
+  "/en-IN/flying-club/virgin-red/*": [
+   "https://www.virginatlantic.com/en-IN/flying-club/virgin-red/sparks"
+  ]
+ }
+}

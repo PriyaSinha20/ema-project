@@ -1,0 +1,287 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-09-02T10:35:22.766Z",
+    "totalUrls": 66,
+    "totalDocuments": 0,
+    "method": "crawl",
+    "sitemapURL": null,
+    "robotsTxtFound": false,
+    "robotsTxtRulesApplied": false,
+    "limitations": "",
+    "confidence": "88%",
+    "statusBreakdown": {
+      "success": 66,
+      "redirect": 0,
+      "clientError": 0,
+      "serverError": 0,
+      "errorTimeout": 0
+    },
+    "urls": [
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/a-card-that-takes-you-places",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/aerolineas-argentinas",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/aeromexico",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/air-europa",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/air-france",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/air-new-zealand",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/all-nippon-airways",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/china-airlines",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/china-eastern",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/delta",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/delta-air-lines",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/el-al",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/garuda-indonesia",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/hawaiian-airlines",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/indigo",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/ita-airways",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/kenya-airways",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/klm",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/korean-air",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/latam-airlines",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/mea",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/saudia",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/scandinavian-airlines",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/singapore-airlines",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/south-african-airways",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/tarom",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/vietnam-airlines",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/virgin-australia",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/westjet",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/xiamen-air",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/credit-card",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/earn-points",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/earn-points/american-express-uk",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/earn-points/bicester-village",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/earn-points/buy-points",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/earn-points/earning-calculator",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/earn-points/points-booster",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/earn-points/tesco-clubcard",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/flying-club-news",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/high-five",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/household-accounts",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/members",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/members/flying-club-news",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/membership-tiers",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/membership-tiers/gold-benefits",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/membership-tiers/red-benefits",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/membership-tiers/silver-benefits",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/spend-points",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/spend-points/reward-seats",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/spend-points/reward-seats/reward-vouchers",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/spend-points/reward-seats/saver-reward-seats",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/status-match",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/travel-partners",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/travel-partners/car-rental-partners",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/travel-partners/hotel-partners",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/travel-partners/other-travel-partners",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/virgin-group",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/virgin-group/virgin-experience-days",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/virgin-group/virgin-gift-card",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/virgin-group/virgin-hotels",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/virgin-group/virgin-limited-edition",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/virgin-group/virgin-wines",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/virgin-red",
+        "status": 200
+      },
+      {
+        "url": "https://www.virginatlantic.com/en-IN/flying-club/virgin-red/sparks",
+        "status": 200
+      }
+    ],
+    "documents": []
+  }
+}
