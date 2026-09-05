@@ -1,0 +1,368 @@
+{
+ "captured": "2026-09-02T10:41:35.789Z",
+ "totalInstances": 770,
+ "totalVariants": 13,
+ "baseSummary": [
+  {
+   "base": "breadcrumbs",
+   "variants": 5,
+   "instances": 330
+  },
+  {
+   "base": "hero",
+   "variants": 4,
+   "instances": 264
+  },
+  {
+   "base": "nav",
+   "variants": 2,
+   "instances": 132
+  },
+  {
+   "base": "cards",
+   "variants": 2,
+   "instances": 44
+  }
+ ],
+ "variants": [
+  {
+   "base": "breadcrumbs",
+   "key": "breadcrumbs::breadcrumbs-minimal-dark",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-breadcrumbs-minimal-dark.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/corporate/affiliates-to-india",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/corporate/affiliates-to-india",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/air-carrier-access-act",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/canadian-tariffs-and-notices",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/contingency-plan-for-lengthy-tarmac-delays",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/dangerous-or-restricted-items",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/marks-and-spencer-cashback-offer-terms-and-conditions",
+     "file": "va-breadcrumbs-minimal-dark.jpg"
+    }
+   ],
+   "topLabel": "2 CTAs + list"
+  },
+  {
+   "base": "breadcrumbs",
+   "key": "breadcrumbs::breadcrumbs-minimal-dark-1",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-breadcrumbs-minimal-dark-1.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/corporate/business-for-good/resources",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/corporate/business-for-good/resources",
+     "file": "va-breadcrumbs-minimal-dark-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/seating-the-small-print",
+     "file": "va-breadcrumbs-minimal-dark-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-1",
+     "file": "va-breadcrumbs-minimal-dark-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-10",
+     "file": "va-breadcrumbs-minimal-dark-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-12",
+     "file": "va-breadcrumbs-minimal-dark-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-13",
+     "file": "va-breadcrumbs-minimal-dark-1.jpg"
+    }
+   ],
+   "topLabel": "3 CTAs + list"
+  },
+  {
+   "base": "breadcrumbs",
+   "key": "breadcrumbs::breadcrumbs-minimal-light-withimg",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-breadcrumbs-minimal-light-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/corporate/business-for-good/virgin-atlantic-foundation",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/corporate/business-for-good/virgin-atlantic-foundation",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/corporate/corporate-bookings",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-11",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-18",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-22",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-25",
+     "file": "va-breadcrumbs-minimal-light-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 3 CTAs + 2 images + list"
+  },
+  {
+   "base": "breadcrumbs",
+   "key": "breadcrumbs::breadcrumbs-minimal-dark-2",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-breadcrumbs-minimal-dark-2.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+     "file": "va-breadcrumbs-minimal-dark-2.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330neo",
+     "file": "va-breadcrumbs-minimal-dark-2.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/b787",
+     "file": "va-breadcrumbs-minimal-dark-2.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/inspiration/your-journey-with-us/health-and-wellbeing/meditation",
+     "file": "va-breadcrumbs-minimal-dark-2.jpg"
+    }
+   ],
+   "topLabel": "4 CTAs + list"
+  },
+  {
+   "base": "breadcrumbs",
+   "key": "breadcrumbs::breadcrumbs-minimal-light-withimg-1",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-breadcrumbs-minimal-light-withimg-1.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/policies/virgin-atlantic-account-terms-and-conditions",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/virgin-atlantic-account-terms-and-conditions",
+     "file": "va-breadcrumbs-minimal-light-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 2 CTAs + 2 images + list"
+  },
+  {
+   "base": "cards",
+   "key": "cards::cards-minimal-dark-withimg",
+   "instances": 43,
+   "pagesFound": 43,
+   "repFile": "va-cards-minimal-dark-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/flying-club",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/flying-club",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/all-nippon-airways",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/hawaiian-airlines",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/indigo",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/flying-club/airline-partners/ita-airways",
+     "file": "va-cards-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 1 CTAs + image"
+  },
+  {
+   "base": "cards",
+   "key": "cards::cards-minimal-dark-withimg-1",
+   "instances": 1,
+   "pagesFound": 1,
+   "repFile": "va-cards-minimal-dark-withimg-1.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/flying-club/a-card-that-takes-you-places",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/flying-club/a-card-that-takes-you-places",
+     "file": "va-cards-minimal-dark-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "heading + image"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-hero-minimal-dark-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/corporate/affiliates-to-india",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/corporate/affiliates-to-india",
+     "file": "va-hero-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/corporate/business-for-good/resources",
+     "file": "va-hero-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/upgrades-and-extras/seating-the-small-print",
+     "file": "va-hero-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/inspiration/your-journey-with-us/health-and-wellbeing/meditation",
+     "file": "va-hero-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-1",
+     "file": "va-hero-minimal-dark-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/conditions-of-carriage/article-10",
+     "file": "va-hero-minimal-dark-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 2 images"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-dark-withimg-1",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-hero-minimal-dark-withimg-1.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330-300",
+     "file": "va-hero-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/a330neo",
+     "file": "va-hero-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/experience/inflight-entertainment/connectivity/b787",
+     "file": "va-hero-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/air-carrier-access-act",
+     "file": "va-hero-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/canadian-tariffs-and-notices",
+     "file": "va-hero-minimal-dark-withimg-1.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/policies/dangerous-or-restricted-items",
+     "file": "va-hero-minimal-dark-withimg-1.jpg"
+    }
+   ],
+   "topLabel": "heading + 2 images"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-light",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-hero-minimal-light.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/manage-booking",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/manage-booking",
+     "file": "va-hero-minimal-light.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 3 CTAs + list"
+  },
+  {
+   "base": "hero",
+   "key": "hero::hero-minimal-light-withimg",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-hero-minimal-light-withimg.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/travel-news/changes-to-uk-entry-requirements",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/travel-news/changes-to-uk-entry-requirements",
+     "file": "va-hero-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/travel-news/esta-us-visa-waiver",
+     "file": "va-hero-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/travel-news/new-digital-landing-cards-when-travelling-to-india",
+     "file": "va-hero-minimal-light-withimg.jpg"
+    },
+    {
+     "url": "https://www.virginatlantic.com/en-IN/travel-news/new-european-entry-exit-system",
+     "file": "va-hero-minimal-light-withimg.jpg"
+    }
+   ],
+   "topLabel": "heading + text + 1 CTAs + 2 images"
+  },
+  {
+   "base": "nav",
+   "key": "nav::footer-global",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-footer-global.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/flying-club",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/flying-club",
+     "file": "va-footer-global.jpg"
+    }
+   ],
+   "topLabel": "Block variant: footer"
+  },
+  {
+   "base": "nav",
+   "key": "nav::header-global",
+   "instances": 66,
+   "pagesFound": 66,
+   "repFile": "va-header-global.jpg",
+   "repUrl": "https://www.virginatlantic.com/en-IN/flying-club",
+   "samples": [
+    {
+     "url": "https://www.virginatlantic.com/en-IN/flying-club",
+     "file": "va-header-global.jpg"
+    }
+   ],
+   "topLabel": "Block variant: header"
+  }
+ ]
+}
