@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riyadh Air (en) — EDS Migration Handover</title>
+<style>
+  :root {
+    --rx-purple: #3B1E6E;
+    --rx-accent: #5B2A9E;
+    --ink: #1a1a2e;
+    --muted: #5a5a6a;
+    --line: #e2e2ea;
+    --band: #f4f2f8;
+    --high: #f1ecfa;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink); line-height: 1.55; margin: 0; padding: 0; font-size: 13px;
+  }
+  .page { max-width: 900px; margin: 0 auto; padding: 48px 40px; }
+  header.cover {
+    border-top: 8px solid var(--rx-accent); padding: 40px 40px 28px; background: var(--band);
+  }
+  header.cover .kicker {
+    text-transform: uppercase; letter-spacing: .12em; font-size: 11px;
+    color: var(--rx-accent); font-weight: 700; margin: 0 0 8px;
+  }
+  header.cover h1 { font-size: 30px; margin: 0 0 6px; line-height: 1.15; color: var(--rx-purple); }
+  header.cover .sub { color: var(--muted); font-size: 14px; margin: 0; }
+  .meta-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 32px; margin: 22px 0 0; font-size: 12px; }
+  .meta-grid div { padding: 4px 0; border-bottom: 1px solid var(--line); }
+  .meta-grid .k { color: var(--muted); }
+  .meta-grid .v { font-weight: 600; }
+
+  h2 { font-size: 19px; margin: 34px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--rx-accent); }
+  h2 .n { color: var(--rx-accent); margin-right: 8px; }
+  h3 { font-size: 14px; margin: 18px 0 6px; color: var(--rx-accent); }
+  p { margin: 8px 0; }
+  .lead { font-size: 14px; }
+  ul { margin: 8px 0; padding-left: 20px; } li { margin: 3px 0; }
+
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 18px; font-size: 12px; }
+  th, td { text-align: left; padding: 7px 9px; border: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--rx-purple); color: #fff; font-weight: 600; }
+  tbody tr:nth-child(even) { background: var(--band); }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  tr.total td { font-weight: 700; background: var(--high); border-top: 2px solid var(--rx-accent); }
+
+  code { background: var(--band); padding: 1px 5px; border-radius: 3px; font-size: 11.5px; }
+
+  .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 18px 0; }
+  .stat { background: var(--band); border-left: 4px solid var(--rx-accent); padding: 12px 14px; }
+  .stat .big { font-size: 24px; font-weight: 700; line-height: 1; color: var(--rx-purple); }
+  .stat .lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-top: 5px; }
+
+  .callout {
+    background: var(--high); border: 1px solid #d9caf0; border-left: 4px solid var(--rx-accent);
+    padding: 12px 16px; margin: 16px 0; border-radius: 4px; font-size: 12.5px;
+  }
+  .callout strong { color: var(--rx-accent); }
+
+  .pill { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .pill.auto { background: #e3f5e8; color: #1c7a3e; }
+  .pill.semi { background: #fdf3e0; color: #a9701a; }
+  .pill.manual { background: #fbe3e8; color: #b0203c; }
+
+  .lo { color: #1c7a3e; font-weight: 600; }
+  .med { color: #a9701a; font-weight: 600; }
+  .hi { color: #b0203c; font-weight: 600; }
+
+  figure { margin: 12px 0 18px; }
+  figure img { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 4px; display: block; }
+  figcaption { font-size: 11px; color: var(--muted); font-style: italic; margin-top: 4px; }
+  .shot-label { font-weight: 700; color: var(--ink); margin: 14px 0 2px; font-size: 13px; }
+
+  footer.doc { margin-top: 40px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+
+  @media print {
+    header.cover { padding: 30px 0 22px; }
+    .page { padding: 0 12px; }
+    h2 { page-break-after: avoid; }
+    table, tr, .stat-row, .callout, figure { page-break-inside: avoid; }
+    .no-print { display: none; }
+  }
+  .no-print { text-align: center; padding: 14px; background: var(--rx-purple); color: #fff; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<div class="no-print">To save as PDF: open this file in your browser, then Print → “Save as PDF” (enable “Background graphics”).</div>
+
+<header class="cover">
+  <p class="kicker">EDS Migration — Scope &amp; Analysis Handover</p>
+  <h1>Riyadh Air (en)</h1>
+  <p class="sub">Content-layer migration assessment for Adobe Edge Delivery Services</p>
+  <div class="meta-grid">
+    <div><span class="k">Site analysed:</span> <span class="v">riyadhair.com/en/home</span></div>
+    <div><span class="k">Analysis date:</span> <span class="v">2026-08-25</span></div>
+    <div><span class="k">Pages discovered:</span> <span class="v">260 (260 analysed, 100%)</span></div>
+    <div><span class="k">Locale:</span> <span class="v">en</span></div>
+    <div><span class="k">Templates:</span> <span class="v">8</span></div>
+    <div><span class="k">Block variants:</span> <span class="v">21</span></div>
+    <div style="grid-column: 1 / -1;"><span class="k">Platform detected:</span> <span class="v">Next.js SPA + headless Adobe AEM (GraphQL), behind Akamai</span></div>
+  </div>
+</header>
+
+<div class="page">
+
+<h2><span class="n">1.</span>Executive Summary</h2>
+<p class="lead">A full crawl and structural analysis of the Riyadh Air English site was completed to scope an Adobe Edge Delivery Services (EDS) migration.</p>
+
+<div class="stat-row">
+  <div class="stat"><div class="big">260</div><div class="lbl">Pages (100% analysed)</div></div>
+  <div class="stat"><div class="big">8</div><div class="lbl">Page templates</div></div>
+  <div class="stat"><div class="big">21</div><div class="lbl">Block variants</div></div>
+  <div class="stat"><div class="big">0</div><div class="lbl">Failures</div></div>
+</div>
+
+<div class="callout">
+  <strong>Key finding:</strong> Riyadh Air is a <strong>Next.js single-page application backed by headless Adobe AEM</strong> (content served via GraphQL), behind Akamai bot protection. Most interior-page content renders client-side, so static captures show mainly the header/hero shell and newsletter footer. This is why 248 of 260 pages fingerprinted into one structural template. The biggest migration cost driver is whether <strong>AEM/GraphQL content export access</strong> is available — with it, the large content family becomes highly automatable; without it, expect rendered-DOM capture per page.
+</div>
+
+<h2><span class="n">2.</span>Templates Inventory</h2>
+<table>
+  <thead><tr><th class="num">#</th><th>Template</th><th>Complexity</th><th>Reasoning</th><th>Reference URL</th></tr></thead>
+  <tbody>
+    <tr><td class="num">1</td><td>content-landing</td><td class="hi">High</td><td>Universal Next.js layout: nav, hero with sub-links, intro, alternating image+text feature sections + CTAs, newsletter footer. Content hydrated client-side. Spans home, section landings, about-us, experience, sfeer, discover-riyadh, plan-book, media-hub.</td><td><code>/en/home</code>, <code>/en/about-us</code></td></tr>
+    <tr><td class="num">2</td><td>feature-detail</td><td class="med">Medium</td><td>Feature/detail variant with hero + media-rich body sections.</td><td><code>/en/experience/chauffeur</code></td></tr>
+    <tr><td class="num">3</td><td>help-article</td><td class="med">Medium</td><td>Breadcrumb + "Explore all help articles" search box + heading + client-rendered body.</td><td><code>/en/help/flight-disruption-policy</code></td></tr>
+    <tr><td class="num">4</td><td>help-article-rich</td><td class="med">Medium</td><td>Help article with richer inline structured media.</td><td><code>/en/help/in-flight-entertainment-and-wi-fi</code></td></tr>
+    <tr><td class="num">5</td><td>legal-terms</td><td class="lo">Low</td><td>Heading + long-form legal rich text + footer.</td><td><code>/en/legal/best-offer-guaranteed-terms-conditions</code></td></tr>
+    <tr><td class="num">6</td><td>localized-legal</td><td class="lo">Low</td><td>Spanish-language legal doc inside the English tree.</td><td><code>/en/conditions-of-carriage-es</code></td></tr>
+    <tr><td class="num">7</td><td>manage-booking-tool</td><td class="hi">High</td><td>Booking-servicing application page (cancel booking); minimal static markup.</td><td><code>/en/manage/cancel-booking</code></td></tr>
+    <tr><td class="num">8</td><td>manage-order-tool</td><td class="hi">High</td><td>Order-retrieval/servicing application page.</td><td><code>/en/manage/manage-order</code></td></tr>
+  </tbody>
+</table>
+
+<h3>Template screenshots</h3>
+<div class="shot-label">content-landing</div>
+<figure><img src="catalog/.pages/www_riyadhair_com_en_about-us--e5e34d22/full-page.jpg" alt="content-landing"><figcaption>Template: content-landing — representative page</figcaption></figure>
+<div class="shot-label">feature-detail</div>
+<figure><img src="catalog/.pages/www_riyadhair_com_en_experience_chauffeur--02595f1c/full-page.jpg" alt="feature-detail"><figcaption>Template: feature-detail — representative page</figcaption></figure>
+<div class="shot-label">help-article</div>
+<figure><img src="catalog/.pages/www_riyadhair_com_en_help_flight-disruption-policy--9fe65248/full-page.jpg" alt="help-article"><figcaption>Template: help-article — representative page</figcaption></figure>
+<div class="shot-label">help-article-rich</div>
+<figure><img src="catalog/.pages/www_riyadhair_com_en_help_in-flight-entertainment-and-wi-fi--7e08d499/full-page.jpg" alt="help-article-rich"><figcaption>Template: help-article-rich — representative page</figcaption></figure>
+<div class="shot-label">legal-terms</div>
+<figure><img src="catalog/.pages/www_riyadhair_com_en_legal_best-offer-guaranteed-terms-conditions--7b2bdb51/full-page.jpg" alt="legal-terms"><figcaption>Template: legal-terms — representative page</figcaption></figure>
+<div class="shot-label">localized-legal</div>
+<figure><img src="catalog/.pages/www_riyadhair_com_en_conditions-of-carriage-es--62c09133/full-page.jpg" alt="localized-legal"><figcaption>Template: localized-legal — representative page</figcaption></figure>
+<div class="shot-label">manage-booking-tool</div>
+<figure><img src="catalog/.pages/www_riyadhair_com_en_manage_cancel-booking--460e079a/full-page.jpg" alt="manage-booking-tool"><figcaption>Template: manage-booking-tool — representative page</figcaption></figure>
+<div class="shot-label">manage-order-tool</div>
+<figure><img src="catalog/.pages/www_riyadhair_com_en_manage_manage-order--086ca38c/full-page.jpg" alt="manage-order-tool"><figcaption>Template: manage-order-tool — representative page</figcaption></figure>
+
+<h2><span class="n">3.</span>Blocks / Components Catalog</h2>
+<p>21 block variants catalogued and consolidated by content model — visual variations grouped as variants of the same base block.</p>
+<table>
+  <thead><tr><th>Block (base)</th><th class="num">Variants</th><th>Complexity</th><th>Behaviour / Functionality</th><th>Reference URL</th></tr></thead>
+  <tbody>
+    <tr><td>header (global)</td><td class="num">1</td><td class="med">Medium</td><td>Sticky nav: logo, primary menu (Plan &amp; book, Manage, Experience, Discover Riyadh, Sfeer, About us, Help), language switcher, account, hamburger.</td><td>all pages</td></tr>
+    <tr><td>footer (global)</td><td class="num">1</td><td class="med">Medium</td><td>Newsletter subscribe with consent checkbox + 4-column link nav + social icons + "A PIF Company" + legal row.</td><td>all pages</td></tr>
+    <tr><td>hero</td><td class="num">6</td><td class="med">Low–Med</td><td>Page banner: title, sub-links, branded imagery; light/dark, with/without image. Dominant block: 244 pages.</td><td><code>/en/home</code></td></tr>
+    <tr><td>cards</td><td class="num">1</td><td class="med">Medium</td><td>Card grid (feature/section cards with image + heading + CTA).</td><td><code>/en/home</code></td></tr>
+    <tr><td>columns</td><td class="num">1</td><td class="lo">Low</td><td>Alternating image+text feature rows.</td><td><code>/en/home</code></td></tr>
+    <tr><td>search</td><td class="num">2</td><td class="med">Medium</td><td>Help-centre "Search for anything" box with submit.</td><td><code>/en/help/flight-disruption-policy</code></td></tr>
+    <tr><td>custom / unknown</td><td class="num">9</td><td class="hi">High</td><td>Composite hydrated fragments — heading+image+CTA+paragraph combos, multi-heading/image/CTA grids, styled text. No standard EDS equivalent.</td><td>across content pages</td></tr>
+  </tbody>
+</table>
+
+<h3>Block screenshots</h3>
+<div class="shot-label">header</div>
+<figure><img src="catalog/.blocks/header-global/screenshots/block-6dd58b428a01.jpg" alt="header"><figcaption>Block: header</figcaption></figure>
+<div class="shot-label">hero</div>
+<figure><img src="catalog/.blocks/hero-minimal-dark-withimg/screenshots/block-cab5a10fac24.jpg" alt="hero"><figcaption>Block: hero</figcaption></figure>
+<div class="shot-label">cards</div>
+<figure><img src="catalog/.blocks/cards-minimal-dark-withimg/screenshots/block-40e8f83f46a8.jpg" alt="cards"><figcaption>Block: cards</figcaption></figure>
+<div class="shot-label">columns</div>
+<figure><img src="catalog/.blocks/columns-minimal-dark-withimg/screenshots/block-31f5bb27aca6.jpg" alt="columns"><figcaption>Block: columns</figcaption></figure>
+<div class="shot-label">search</div>
+<figure><img src="catalog/.blocks/search-minimal-dark/screenshots/block-820aead38541.jpg" alt="search"><figcaption>Block: search</figcaption></figure>
+<div class="shot-label">footer</div>
+<figure><img src="catalog/.blocks/footer-global/screenshots/block-26424ca3b7fd.jpg" alt="footer"><figcaption>Block: footer</figcaption></figure>
+
+<h2><span class="n">4.</span>Page Counts by Template &amp; Migration Classification</h2>
+<table>
+  <thead><tr><th>Template</th><th class="num">Pages</th><th>Migration Path</th><th>Rationale</th></tr></thead>
+  <tbody>
+    <tr><td>content-landing</td><td class="num">248</td><td><span class="pill manual">Manual-heavy (AEM/GraphQL)</span></td><td>Identical shells; content client-rendered from AEM. Bulk-scriptable only with API access.</td></tr>
+    <tr><td>feature-detail</td><td class="num">4</td><td><span class="pill semi">Semi-auto</span></td><td>Media-rich composition.</td></tr>
+    <tr><td>help-article</td><td class="num">3</td><td><span class="pill semi">Semi-auto</span></td><td>Search + client-rendered body.</td></tr>
+    <tr><td>help-article-rich</td><td class="num">1</td><td><span class="pill semi">Semi-auto</span></td><td>Richer inline media.</td></tr>
+    <tr><td>legal-terms</td><td class="num">1</td><td><span class="pill auto">Automated</span></td><td>Static rich text.</td></tr>
+    <tr><td>localized-legal</td><td class="num">1</td><td><span class="pill auto">Automated</span></td><td>Static rich text (ES).</td></tr>
+    <tr><td>manage-booking-tool</td><td class="num">1</td><td><span class="pill manual">Manual / Exclude</span></td><td>Transactional app.</td></tr>
+    <tr><td>manage-order-tool</td><td class="num">1</td><td><span class="pill manual">Manual / Exclude</span></td><td>Transactional app.</td></tr>
+    <tr class="total"><td>Total</td><td class="num">260</td><td colspan="2">Automated 2 · Content-via-CMS / semi-auto 256 · Manual 2</td></tr>
+  </tbody>
+</table>
+<p style="font-size:11.5px;color:var(--muted)">Because the site is already an AEM-backed headless app, the ~136 media-hub articles and other content pages are highly templatised. With AEM/GraphQL export access the 248-page family becomes largely automatable (one importer, many records); without it, each requires rendered-DOM capture (manual-heavy). This single decision swings the estimate substantially.</p>
+
+<h2><span class="n">5.</span>Integrations Analysis</h2>
+<table>
+  <thead><tr><th>Integration</th><th>Type</th><th>Complexity</th><th>Where used</th></tr></thead>
+  <tbody>
+    <tr><td>Adobe Experience Manager (headless + GraphQL)</td><td>API / CMS backend</td><td class="hi">High</td><td>Site-wide (<code>__env__.aem_host</code> / <code>graphql_api</code>, <code>assets.adobedtm.com</code>)</td></tr>
+    <tr><td>Adobe DTM / Launch (tag manager + analytics)</td><td>Custom code / embed</td><td class="med">Medium</td><td>All pages</td></tr>
+    <tr><td>Google Tag Manager + gtag / dataLayer</td><td>Embed</td><td class="med">Medium</td><td>All pages (GTM-TB3GRWRT)</td></tr>
+    <tr><td>OneTrust cookie consent</td><td>Embed / plugin</td><td class="lo">Low</td><td>All pages (<code>cdn.cookielaw.org</code>)</td></tr>
+    <tr><td>Media CDN (<code>media.riyadhair.com</code>)</td><td>Asset delivery</td><td class="lo">Low</td><td>All pages (images/video)</td></tr>
+    <tr><td>Booking / order engine</td><td>External app</td><td class="hi">High</td><td><code>/en/manage/*</code>, plan-book booking flow</td></tr>
+    <tr><td>Social embeds (Instagram, X, Facebook, YouTube, Threads, TikTok, LinkedIn, Snapchat)</td><td>Embed / link</td><td class="lo">Low</td><td>Footer</td></tr>
+    <tr><td>Akamai bot protection / CDN</td><td>Platform</td><td class="med">Medium</td><td>Site-wide (blocks robots.txt &amp; XML sitemap)</td></tr>
+    <tr><td>Next.js runtime / hydration</td><td>Framework</td><td class="hi">High</td><td>All content pages</td></tr>
+  </tbody>
+</table>
+
+<h2><span class="n">6.</span>Complex Use Cases &amp; Observations</h2>
+<table>
+  <thead><tr><th class="num">#</th><th>Complex behaviour</th><th class="num">Instances</th><th>Where</th><th>Why complex</th></tr></thead>
+  <tbody>
+    <tr><td class="num">1</td><td>Client-side-rendered content (Next.js hydration)</td><td class="num">~256</td><td>content-landing, help, feature</td><td>Content absent from delivered HTML; source from AEM/GraphQL or rendered DOM.</td></tr>
+    <tr><td class="num">2</td><td>Headless AEM + GraphQL backend</td><td class="num">site-wide</td><td>all content</td><td>Content model in AEM; path depends on export/API access.</td></tr>
+    <tr><td class="num">3</td><td>Transactional apps (manage booking/order, plan-book)</td><td class="num">~3+</td><td>/en/manage/*, plan-book</td><td>Out of EDS content scope; integration or link-out.</td></tr>
+    <tr><td class="num">4</td><td>Help-centre search</td><td class="num">~36</td><td>/en/help/*</td><td>Dynamic search/index behaviour to reproduce.</td></tr>
+    <tr><td class="num">5</td><td>Bot protection (Akamai)</td><td class="num">site-wide</td><td>all pages</td><td>Blocks robots.txt/XML sitemap; import tooling needs browser context + throttling.</td></tr>
+    <tr><td class="num">6</td><td>9 custom/unknown block compositions</td><td class="num">~10 uses</td><td>content pages</td><td>Bespoke hydrated fragments; require content modeling.</td></tr>
+    <tr><td class="num">7</td><td>Bilingual content in EN tree (-es pages)</td><td class="num">~5</td><td>legal/conditions/fare pages</td><td>Locale handling within a single tree.</td></tr>
+    <tr><td class="num">8</td><td>Large press-release archive</td><td class="num">136</td><td>/en/media-hub/*</td><td>Volume; ideal for automation if CMS export available.</td></tr>
+  </tbody>
+</table>
+
+<h2><span class="n">7.</span>Migration Estimates</h2>
+<p>Estimates cover the <strong>English content site</strong> (260 pages, 8 templates, 21 blocks). Excludes the booking/order transactional apps.</p>
+
+<h3>Effort by workstream</h3>
+<table>
+  <thead><tr><th>Workstream</th><th>Estimate</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td>Block development (21 variants → ~8–10 EDS blocks + variations)</td><td>8–12 days</td><td>Incl. 9 custom compositions, search, newsletter</td></tr>
+    <tr><td>Template setup (8 templates)</td><td>4–5 days</td><td>content-landing dominates</td></tr>
+    <tr><td>Content import — with AEM/GraphQL export</td><td>4–6 days</td><td>Scripted bulk import of 248-page family + 136 articles</td></tr>
+    <tr><td>Content import — without API (rendered-DOM capture)</td><td>+10–16 days</td><td>Contingency if no CMS access</td></tr>
+    <tr><td>Header / footer / navigation (global)</td><td>3–4 days</td><td>Mega-nav + newsletter footer</td></tr>
+    <tr><td>Help-centre search</td><td>2–4 days</td><td>Index + search behaviour</td></tr>
+    <tr><td>Integrations &amp; analytics re-wire (AEM/GTM/DTM/OneTrust)</td><td>4–6 days</td><td>+ runtime audit</td></tr>
+    <tr><td>QA &amp; testing (functional, visual, a11y, PageSpeed)</td><td>6–8 days</td><td>Target Lighthouse 100</td></tr>
+    <tr><td>PM / UAT / fixes</td><td>4–6 days</td><td></td></tr>
+  </tbody>
+</table>
+
+<h3>Totals by scenario</h3>
+<table>
+  <thead><tr><th>Scenario</th><th>Total effort</th><th>Schedule</th><th>Indicative cost (~$600/day)</th></tr></thead>
+  <tbody>
+    <tr><td>With AEM/GraphQL content export (recommended)</td><td><strong>~35–51 person-days</strong></td><td>~7–9 weeks</td><td><strong>≈ $21k–$31k</strong></td></tr>
+    <tr><td>Without API (DOM capture)</td><td><strong>~45–67 person-days</strong></td><td>~9–12 weeks</td><td><strong>≈ $27k–$40k</strong></td></tr>
+  </tbody>
+</table>
+
+<h3>Team &amp; phasing</h3>
+<ul>
+  <li>Recommended team: 2 developers + 1 QA + PM (part-time).</li>
+  <li>Phase 1 — Blocks + templates + global navigation</li>
+  <li>Phase 2 — Content import (API-driven if possible)</li>
+  <li>Phase 3 — Help search + integrations</li>
+  <li>Phase 4 — QA / UAT</li>
+</ul>
+
+<h2><span class="n">8.</span>Caveats &amp; Assumptions</h2>
+<ul>
+  <li>Akamai protection blocks robots.txt and the XML sitemap; URLs were harvested from the on-site <code>/en/sitemap</code> page (260 URLs, high confidence). Page rendering succeeded via a real browser (100% analysed).</li>
+  <li>Content is client-rendered from headless AEM; the biggest cost driver is whether CMS/GraphQL export access is available.</li>
+  <li>Manage booking / order and the booking flow are transactional applications and are excluded from the content-migration counts and estimates.</li>
+  <li>Cost figures are indicative and use a placeholder blended day rate; adjust to your actual rates.</li>
+</ul>
+
+<h2><span class="n">9.</span>Analysis Artifacts</h2>
+<table>
+  <thead><tr><th>Artifact</th><th>Description</th></tr></thead>
+  <tbody>
+    <tr><td><code>template-catalog.json</code></td><td>8 named templates with page assignments and reference URLs</td></tr>
+    <tr><td><code>block-catalog.json</code></td><td>21 block variants with usage counts and canonical models</td></tr>
+    <tr><td><code>summary.json</code></td><td>Site metrics and coverage summary</td></tr>
+    <tr><td><code>urls-all.json</code> / <code>urls-grouped.json</code></td><td>260 discovered URLs, grouped by directory pattern</td></tr>
+    <tr><td><code>.pages/{slug}/full-page.jpg</code></td><td>Full-page screenshot per analysed page</td></tr>
+    <tr><td><code>.blocks/{variant}/screenshots/</code></td><td>Screenshots per block variant</td></tr>
+  </tbody>
+</table>
+
+<footer class="doc">
+  Riyadh Air (en) — EDS Migration Handover · Generated 2026-08-25 · Content-layer scope only (excludes transactional booking/order applications).
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,233 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/",
+        "https://www.virginatlanticcargo.com/gb/en.html"
+      ],
+      "description": "Site landing page: carousel hero banner, quick-link icon row, multiple three-column promo-card rows (products, booking, news), and a rich multi-column footer."
+    },
+    {
+      "name": "content-article",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/Footer.html",
+        "https://www.virginatlanticcargo.com/gb/en/cargoform/awb.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/global-onforwardings.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/Footer.html",
+        "https://www.virginatlanticcargo.com/gb/en/Footer/accessibility.html",
+        "https://www.virginatlanticcargo.com/gb/en/Footer/cookie-statement.html",
+        "https://www.virginatlanticcargo.com/gb/en/Footer/termsandconditions.html",
+        "https://www.virginatlanticcargo.com/gb/en/about-us/news/our-media-team.html",
+        "https://www.virginatlanticcargo.com/gb/en/about-us/our-fleet.html",
+        "https://www.virginatlanticcargo.com/gb/en/book.html",
+        "https://www.virginatlanticcargo.com/gb/en/book/permanent-bookings.html",
+        "https://www.virginatlanticcargo.com/gb/en/cargoform.html",
+        "https://www.virginatlanticcargo.com/gb/en/cargoform/awb.html",
+        "https://www.virginatlanticcargo.com/gb/en/cargoform/eawbregistrationform.html",
+        "https://www.virginatlanticcargo.com/gb/en/contact-us/make-a-claim.html",
+        "https://www.virginatlanticcargo.com/gb/en/contact-us/open-account.html",
+        "https://www.virginatlanticcargo.com/gb/en/contact-us/request-mawb.html",
+        "https://www.virginatlanticcargo.com/gb/en/contact-us/seasonal-opening-hours.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/HS_Codes_for_UAE_Shipments.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/IWD2025.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/Introducing-EB-Butt.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/Introducing-Zach-Greene.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/Live_on_WebCargo.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/New-cooler-facility-JFK.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/New_South_Africa_GHA.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/Summer-Schedule-2024.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/Taking_off_with_cargo_one.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/UK-Border-Force-requirements-for-all-UK-destination-shipments.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/dokasch-opticooler.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/jfk-remote-driver-check-in.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/myVS-three-years.html",
+        "https://www.virginatlanticcargo.com/gb/en/notifications/middle-east-airspace.html",
+        "https://www.virginatlanticcargo.com/gb/en/notifications/weather-disruption-updates.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/global-onforwardings.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/network-map.html"
+      ],
+      "description": "General content / news-article page: page title, optional posted date, and a stack of rich text and text-plus-image content sections with inline quotes and CTA buttons. The site's most-used template."
+    },
+    {
+      "name": "legal-longform",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/Footer/termsandconditions/product-service-level-terms.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/Footer/termsandconditions/product-service-level-terms.html"
+      ],
+      "description": "Legal / terms page: page title and a single long-form rich-text body of numbered clauses and sub-clauses."
+    },
+    {
+      "name": "editorial-mosaic",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/about-us.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/flight-schedule.html",
+        "https://www.virginatlanticcargo.com/gb/en/about-us/news/Press_releases.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/about-us.html",
+        "https://www.virginatlanticcargo.com/gb/en/about-us/news.html",
+        "https://www.virginatlanticcargo.com/gb/en/about-us/news/Press_releases.html",
+        "https://www.virginatlanticcargo.com/gb/en/about-us/our-story.html",
+        "https://www.virginatlanticcargo.com/gb/en/eservices/myvs-training.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/introducing-myvs.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/myvs-live-in-korea.html",
+        "https://www.virginatlanticcargo.com/gb/en/news/new-service-lhr-ord.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/flight-schedule.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices.html"
+      ],
+      "description": "Editorial landing page (About us / Media centre): page title and an interlocking mosaic grid of image tiles and text tiles with links, followed by supporting text sections."
+    },
+    {
+      "name": "team-profiles",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/about-us/news/meet-the-team.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/about-us/news/meet-the-team.html"
+      ],
+      "description": "Meet-the-team page: page title and a series of repeating team-member rows, each with a portrait photo, name/role, biography and a 'Connect on LinkedIn' CTA."
+    },
+    {
+      "name": "hero-cta-landing",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/book/pets2.html",
+        "https://www.virginatlanticcargo.com/gb/en/book/pharmazone.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/book/pets2.html",
+        "https://www.virginatlanticcargo.com/gb/en/book/pharmazone.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/active-containers0.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/courier.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/vulnerable.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/service-levels.html"
+      ],
+      "description": "Simple landing page: full-width hero banner with an overlaid heading and a single call-to-action button, and little or no body content below."
+    },
+    {
+      "name": "faq-accordion",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/contact-us/faqs.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/contact-us/faqs.html"
+      ],
+      "description": "FAQ page: page title/subtitle and a full-width accordion list of expandable question-and-answer items."
+    },
+    {
+      "name": "contact-hub",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/contact-us.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/contact-us.html"
+      ],
+      "description": "Contact-us hub: page title, intro text with inline links and CTAs, and a region-based accordion of contact information plus a support/incident CTA."
+    },
+    {
+      "name": "section-hub",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/eservices.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/eservices.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products.html"
+      ],
+      "description": "Section hub / overview page (e-Services, Products & services landing): page title with intro and a small set of links or cards into the section."
+    },
+    {
+      "name": "news-listing",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/news.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/news.html"
+      ],
+      "description": "News index page: page title and a chronological listing/grid of news items linking through to individual articles."
+    },
+    {
+      "name": "notifications-list",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/notifications.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/notifications.html"
+      ],
+      "description": "Notifications & alerts page: page title and a long two-column list of dated notification entries (title, date, description) covering operational alerts and opening hours."
+    },
+    {
+      "name": "guidance-article",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/notifications/shipping-guidance.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/notifications/shipping-guidance.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services.html"
+      ],
+      "description": "Guidance / informational article: hero banner, structured text sections with bullet lists, topic accordions and an FAQ accordion at the foot of the page."
+    },
+    {
+      "name": "office-detail",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/aberdeen.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/atlanta.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/aberdeen.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/atlanta.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/belfast.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/bengaluru.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/birmingham.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/boston.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/chicago.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/detroit.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/edinburgh.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/las-vegas.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/london-heathrow.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/los-angeles.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/manchester.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/newark.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/newcastle.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/nyc.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/orlando.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/san-francisco.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/seattle.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/tampa.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/washington.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/cape-town.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/delhi.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/glasgow.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/johannesburg.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/miami.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-network/worldwide-offices/mumbai.html"
+      ],
+      "description": "Worldwide-office detail page: JavaScript-driven station-information application (office address, opening hours, contact details and capabilities) rendered client-side."
+    },
+    {
+      "name": "product-detail",
+      "representativePages": [
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/Fresh.html"
+      ],
+      "urls": [
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/Fresh.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/General.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/pharma.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/cars.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/custom.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/mail.html",
+        "https://www.virginatlanticcargo.com/gb/en/our-products-services/products/valuable.html"
+      ],
+      "description": "Product / service detail page: hero banner with product name, a 'Why X?' intro with a product-features box, a three-column service-levels block, a 'book it your way' contact block, and a 'Discover more' three-card row."
+    }
+  ]
+}
